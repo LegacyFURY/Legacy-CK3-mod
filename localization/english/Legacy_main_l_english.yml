@@ -1,0 +1,379 @@
+﻿l_english:
+# Legacy lifestyle #
+legacy_lifestyle_name:0 "Legacy"
+legacy_lifestyle_desc:0 "Focus on the legacy that you will leave to your children and to your realm."
+legacy_lifestyle_highlight_desc:0 "Because of your Learning [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
+legacy_bloodline_focus:0 "Bloodline Focus"
+legacy_bloodline_focus_modifier:1 "[GetFocus('legacy_bloodline_focus').GetName]"
+legacy_bloodline_focus_desc:0 "Careful breeding to produce the most worthy successors."
+legacy_bloodline_focus_effect_desc:0 "Focusing on Bloodline grants:"
+bloodline_name:1 "Bloodline"
+legacy_culture_focus:0 "Culture Focus"
+legacy_culture_focus_modifier:1 "[GetFocus('legacy_culture_focus').GetName]"
+legacy_culture_focus_desc:0 "Promote your culture above others."
+legacy_culture_focus_effect_desc:0 "Focusing on Culture grants:"
+culture_name:1 "Culture"
+legacy_dynasty_focus:0 "Dynasty Focus"
+legacy_dynasty_focus_modifier:1 "[GetFocus('legacy_dynasty_focus').GetName]"
+legacy_dynasty_focus_desc:0 "Focus on developing a brighter future for your dynasty."
+legacy_dynasty_focus_effect_desc:0 "Focusing on Dynasty grants:"
+dynasty_name:1 "Dynasty"
+
+# Legacy perks: Bloodline
+bloodline_1_perk_name:0 "Long Live the King"
+bloodline_2_perk_name:0 "Breeder"
+bloodline_3_perk_name:0 "Family First"
+bloodline_4_perk_name:0 "True Zen"
+bloodline_5_perk_name:0 "Gene Selector"
+bloodline_6_perk_name:0 "Virtuous Mutations"
+bloodline_7_perk_name:0 "Glorious Evolution"
+bloodline_8_perk_name:0 "Honorable Might"
+bloodline_9_perk_name:0 "Pure Blooded"
+
+# Legacy perks: Culture
+culture_1_perk_name:0 "Cultural Propaganda"
+culture_2_perk_name:0 "Cultural Expansion"
+culture_3_perk_name:0 "Cultural Novelty"
+culture_4_perk_name:0 "Praised by the Masses"
+culture_5_perk_name:0 "Realm Development"
+culture_6_perk_name:0 "Cultural Superiority"
+culture_7_perk_name:0 "Heavenly Touched"
+culture_8_perk_name:0 "Ruler Professionalism"
+culture_9_perk_name:0 "Innovator"
+
+# Legacy perks: Dynasty
+dynasty_1_perk_name:0 "Well Educated"
+dynasty_2_perk_name:0 "Sharp Tongue"
+dynasty_3_perk_name:0 "Landlord"
+dynasty_4_perk_name:0 "Golden touch"
+dynasty_5_perk_name:0 "Natural Zeal"
+dynasty_6_perk_name:0 "Military Training"
+dynasty_7_perk_name:0 "Professional Plotter"
+dynasty_8_perk_name:0 "Personal Glory"
+dynasty_9_perk_name:0 "Elder"
+
+# TRAITS #
+trait_pureblood:0 "Pure blooded"
+trait_pureblood_desc:0 "The purest blood, make the most honorable offsprings. Healthy children will guaranty you a long lasting dynasty."
+trait_innovator:0 "Innovator"
+trait_innovator_desc:0 "Cultural heritage is key to success. Make your culture thrive among the others."
+trait_elder:0 "Elder"
+trait_elder_desc:0 "A memorable leader would excel in all aspects. And will always try to make the most of his ruling"
+
+# Action popup NO NEED TO TRANSLATE#
+action_lifestyle_legacy:0 "$action_can_spend_perk_point$"
+action_lifestyle_legacy_label:0 "$action_can_spend_perk_point_label$"
+action_lifestyle_legacy_desc:0 "$action_can_spend_perk_point_desc$"
+action_lifestyle_legacy_click:0 "$action_can_spend_perk_point_click$"
+
+# Perk effects #
+CULTURAL_PROPAGANDA_PERK:0 "Boost to the cultural promotion action"
+CULTURAL_EXPANSION_PERK:0 "Boost to the claim fabrication action"
+HEAVENLY_TOUCHED_PERK:0 "Boost to the faith convertion action"
+INNOVATOR_PERK:0 "Boost to the title integration action"
+
+# Other
+dynn_Manul:0 "Manul"
+dynn_Fevral:0 "Fevral"
+INTEGRATION_PROGRESS_BONUS:0 "Ruler bonus"
+COURT_CHAPLAIN_PROGRESS_BONUS:0 "Ruler bonus"
+STEWARD_PROGRESS_BONUS:0 "Ruler bonus"
+monthly_legacy_lifestyle_xp_gain_mult:0 "Monthly legacy [lifestyle|E] Experience"
+NOT_CHARACTER_HAS_THIS_OPINION_OF_TARGET_OR_ABOVE:0 "Reputation is too low"
+
+# Legacy lifestyle Effects NOT WORKING#
+
+ADD_LEGACY_SKILL_EFFECT:0 "[legacy|E] is increased by $VALUE|V0$"
+REMOVE_LEGACY_SKILL_EFFECT:0 "[legacy|E] is decreased by $VALUE|V0$"
+I_ADD_LEGACY_SKILL_EFFECT:1 "You increase your [legacy|E] by $VALUE|+0$"
+I_REMOVE_LEGACY_SKILL_EFFECT:1 "You decrease your [legacy|E] by $VALUE|-0$"
+THEY_ADD_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] increases [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+THEY_REMOVE_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] decreases [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+ADDED_LEGACY_SKILL_EFFECT:0 "[legacy|E] was increased by $VALUE|V0$"
+REMOVED_LEGACY_SKILL:0 "[legacy|E] was decreased by $VALUE|V0$"
+I_ADDED_LEGACY_SKILL_EFFECT:1 "You increased your [legacy|E] by $VALUE|+0$"
+I_REMOVED_LEGACY_SKILL_EFFECT:1 "You decreased your [legacy|E] by $VALUE|-0$"
+THEY_ADDED_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] increased [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+THEY_REMOVED_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] decreased [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+
+GAINS_LEGACY_LIFESTYLE_XP:2 "Gains $VALUE|V0$ [legacy_lifestyle|E] Experience"
+GAINED_LEGACY_LIFESTYLE_XP:2 "Gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+I_GAIN_LEGACY_LIFESTYLE_XP:2 "You gain $VALUE|V0$ [legacy_lifestyle|E] Experience"
+I_GAINED_LEGACY_LIFESTYLE_XP:2 "You gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+TARGET_GAINS_LEGACY_LIFESTYLE_XP:2 "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [legacy_lifestyle|E] Experience"
+TARGET_GAINED_LEGACY_LIFESTYLE_XP:2 "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+
+GAINS_A_LEGACY_LIFESTYLE_PERKPOINT:2 "Gains $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "Gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+I_GAIN_A_LEGACY_LIFESTYLE_PERKPOINT:2 "You gain $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+I_GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "You gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+TARGET_GAINS_A_LEGACY_LIFESTYLE_PERKPOINT:2 "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+TARGET_GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+
+
+
+# Prisoner decision #
+prisoner_decision:0 "Get a new prisoner"
+prisoner_decision_tooltip:0 "Do i need a new prisoner in my dungeon?"
+prisoner_decision_desc:0 "I'm bored, maybe i could transfer a criminal to my dungeon? This could be amusing."
+prisoner_decision_confirm:0 "Let's have a look!"
+prisoner_decision_info:0 "Have a criminal transferred to your personal dungeon."
+
+
+# Marshal decision #
+marshal_decision:0 "Train with my Marshal"
+marshal_decision_tooltip:0 "Could be a good idea to train with my Marshal."
+marshal_decision_desc:0 "I could go and train with my Marshal."
+marshal_decision_confirm:0 "Let's train!"
+marshal_decision_info:0 "Intensive combat training for a bonus."
+
+# Chancellor decision #
+chancellor_decision:0 "Diplomatic visit with my Chancellor"
+chancellor_decision_tooltip:0 "Let's pass some time with my chancellor and visit some nobles."
+chancellor_decision_desc:0 "I'm gonna visit some nobles with my Chancellor, this could be beneficial."
+chancellor_decision_confirm:0 "Let's go visit!"
+chancellor_decision_info:0 "Work with your Chancellor for a bonus."
+
+# Steward decision #
+steward_decision:0 "Administer the realm with my Steward"
+steward_decision_tooltip:0 "Does my Steward doing a good job?"
+steward_decision_desc:0 "Let's help my Steward manage my realm."
+steward_decision_confirm:0 "Let's work!"
+steward_decision_info:0 "Work with your Steward for a bonus."
+
+# Spymaster decision #
+spymaster_decision:0 "Plot with my Spymaster"
+spymaster_decision_tooltip:0 "I wonder what my Spymaster is up to."
+spymaster_decision_desc:0 "Let's scheme and plot with my Spymaster."
+spymaster_decision_confirm:0 "Let's plot!"
+spymaster_decision_info:0 "Work with your Spymaster for a bonus."
+
+# Chaplain decision #
+chaplain_decision:0 "Study with my [ROOT.Char.Custom('MyPriestTitle')]"
+chaplain_decision_tooltip:0 "What new can i learn today?"
+chaplain_decision_desc:0 "Let's study old books with my [ROOT.Char.Custom('MyPriestTitle')]."
+chaplain_decision_confirm:0 "Let's learn!"
+chaplain_decision_info:0 "Work with your [ROOT.Char.Custom('MyPriestTitle')] for a bonus."
+
+# Spouse decision #
+spouse_decision:0 "Pass time with my Spouse"
+spouse_decision_tooltip:0 "I should probably pass some time with my loved one."
+spouse_decision_desc:0 "I could go and pass time with my Spouse."
+spouse_decision_confirm:0 "Let's go!"
+spouse_decision_info:0 "Pass time with my spouse."
+
+# witch decision #
+witch_decision:0 "Visite the wicked witch"
+witch_decision_tooltip:0 "Should I visit her?"
+witch_decision_desc:0 "I have heard that a wicked witch arrived on my lands. Rumors say that she brews some unique potions. Maybe i should visit her?"
+witch_decision_confirm:0 "Let's visit her."
+witch_decision_info:0 "Visit the wicked witch and ask her about her potions."
+
+# Abdication decision #
+abdication_decision:0 "Abdicate yourself from power"
+abdication_decision_tooltip:0 "Abdicate and play as your heir."
+abdication_decision_desc:0 "Each passing day I start to think that I'm not at the right place. Maybe it is time for me to move away from power?"
+abdication_decision_confirm:0 "Should I really do it?"
+abdication_decision_info:0 "Abdicate yourself from power and play as your heir"
+
+
+# Modifiers names #
+legacy_chancellor1_modifier:0 "Recognition -5"
+legacy_chancellor2_modifier:0 "Recognition -4"
+legacy_chancellor3_modifier:0 "Recognition -3"
+legacy_chancellor4_modifier:0 "Recognition -2"
+legacy_chancellor5_modifier:0 "Recognition -1"
+legacy_chancellor6_modifier:0 "Recognition +1"
+legacy_chancellor7_modifier:0 "Recognition +2"
+legacy_chancellor8_modifier:0 "Recognition +3"
+legacy_chancellor9_modifier:0 "Recognition +4"
+legacy_chancellor10_modifier:0 "Recognition +5"
+
+legacy_steward1_modifier:0 "Coordination -5"
+legacy_steward2_modifier:0 "Coordination -4"
+legacy_steward3_modifier:0 "Coordination -3"
+legacy_steward4_modifier:0 "Coordination -2"
+legacy_steward5_modifier:0 "Coordination -1"
+legacy_steward6_modifier:0 "Coordination +1"
+legacy_steward7_modifier:0 "Coordination +2"
+legacy_steward8_modifier:0 "Coordination +3"
+legacy_steward9_modifier:0 "Coordination +4"
+legacy_steward10_modifier:0 "Coordination +5"
+
+legacy_chaplain1_modifier:0 "Devotion -5"
+legacy_chaplain2_modifier:0 "Devotion -4"
+legacy_chaplain3_modifier:0 "Devotion -3"
+legacy_chaplain4_modifier:0 "Devotion -2"
+legacy_chaplain5_modifier:0 "Devotion -1"
+legacy_chaplain6_modifier:0 "Devotion +1"
+legacy_chaplain7_modifier:0 "Devotion +2"
+legacy_chaplain8_modifier:0 "Devotion +3"
+legacy_chaplain9_modifier:0 "Devotion +4"
+legacy_chaplain10_modifier:0 "Devotion +5"
+
+legacy_spymaster1_modifier:0 "Cunning -5"
+legacy_spymaster2_modifier:0 "Cunning -4"
+legacy_spymaster3_modifier:0 "Cunning -3"
+legacy_spymaster4_modifier:0 "Cunning -2"
+legacy_spymaster5_modifier:0 "Cunning -1"
+legacy_spymaster6_modifier:0 "Cunning +1"
+legacy_spymaster7_modifier:0 "Cunning +2"
+legacy_spymaster8_modifier:0 "Cunning +3"
+legacy_spymaster9_modifier:0 "Cunning +4"
+legacy_spymaster10_modifier:0 "Cunning +5"
+
+legacy_marshal1_modifier:0 "Combat training -5"
+legacy_marshal2_modifier:0 "Combat training -4"
+legacy_marshal3_modifier:0 "Combat training -3"
+legacy_marshal4_modifier:0 "Combat training -2"
+legacy_marshal5_modifier:0 "Combat training -1"
+legacy_marshal6_modifier:0 "Combat training +1"
+legacy_marshal7_modifier:0 "Combat training +2"
+legacy_marshal8_modifier:0 "Combat training +3"
+legacy_marshal9_modifier:0 "Combat training +4"
+legacy_marshal10_modifier:0 "Combat training +5"
+
+legacy_special1_modifier:0 "Treacherous -5"
+legacy_special2_modifier:0 "Treacherous -4"
+legacy_special3_modifier:0 "Treacherous -3"
+legacy_special4_modifier:0 "Treacherous -2"
+legacy_special5_modifier:0 "Treacherous -1"
+legacy_special6_modifier:0 "Treacherous +1"
+legacy_special7_modifier:0 "Treacherous +2"
+legacy_special8_modifier:0 "Treacherous +3"
+legacy_special9_modifier:0 "Treacherous +4"
+legacy_special10_modifier:0 "Treacherous +5"
+
+legacy_health1_modifier:0 "Physical training -5"
+legacy_health2_modifier:0 "Physical training -4"
+legacy_health3_modifier:0 "Physical training -3"
+legacy_health4_modifier:0 "Physical training -2"
+legacy_health5_modifier:0 "Physical training -1"
+legacy_health6_modifier:0 "Physical training +1"
+legacy_health7_modifier:0 "Physical training +2"
+legacy_health8_modifier:0 "Physical training +3"
+legacy_health9_modifier:0 "Physical training +4"
+legacy_health10_modifier:0 "Physical training +5"
+
+legacy_spouse1_modifier:0 "Family custodian -5"
+legacy_spouse2_modifier:0 "Family custodian -4"
+legacy_spouse3_modifier:0 "Family custodian -3"
+legacy_spouse4_modifier:0 "Family custodian -2"
+legacy_spouse5_modifier:0 "Family custodian -1"
+legacy_spouse6_modifier:0 "Family custodian +1"
+legacy_spouse7_modifier:0 "Family custodian +2"
+legacy_spouse8_modifier:0 "Family custodian +3"
+legacy_spouse9_modifier:0 "Family custodian +4"
+legacy_spouse10_modifier:0 "Family custodian +5"
+
+legacy_witch1_modifier:0 "Sweet Potion"
+legacy_witch2_modifier:0 "Nasty Potion"
+
+legacy_dishonor_modifier:0 "Dishonored"
+legacy_treated_wounds_modifier:0 "Treated wounds"
+
+# Opinion modifiers names #
+
+legacy_treated_opinion:0 "Wounds have been treated"
+
+# interactions #
+start_treat_interaction:0 "Treat wounds"
+legacy_treat_desc:0 "Treat wound of your tortured prisoner"
+
+# Dutchy Buildings
+
+building_type_legacy_prison_01:0 "Prison"
+building_type_legacy_prison_01_desc:0 "Description"
+building_legacy_prison_01:0 "Small prison"
+building_legacy_prison_01_desc:0 "Prison description"
+building_legacy_prison_02:0 "Prison"
+building_legacy_prison_02_desc:0 "Prison description"
+building_legacy_prison_03:0 "Large prison"
+building_legacy_prison_03_desc:0 "Prison description"
+
+building_type_legacy_noble_palace_01:0 "Noble palace"
+building_type_legacy_noble_palace_01_desc:0 "Description"
+building_legacy_noble_palace_01:0 "Noble palace"
+building_legacy_noble_palace_01_desc:0 "Noble palace description"
+building_legacy_noble_palace_02:0 "Noble palace"
+building_legacy_noble_palace_02_desc:0 "Noble palace description"
+building_legacy_noble_palace_03:0 "Noble palace"
+building_legacy_noble_palace_03_desc:0 "Noble palace description"
+
+building_type_legacy_monument_01:0 "Monument"
+building_type_legacy_monument_01_desc:0 "Description"
+building_legacy_monument_01:0 "Basic monument"
+building_legacy_monument_01_desc:0 "Monument description"
+building_legacy_monument_02:0 "Glorious monument"
+building_legacy_monument_02_desc:0 "Monument description"
+building_legacy_monument_03:0 "Glorious monument"
+building_legacy_monument_03_desc:0 "Monument description"
+
+building_type_legacy_knowledge_guild_01:0 "Guild of knowledge"
+building_type_legacy_knowledge_guild_01_desc:0 "Description"
+building_legacy_knowledge_guild_01:0 "Guild of knowledge"
+building_legacy_knowledge_guild_01_desc:0 "Guild of knowledge description"
+building_legacy_knowledge_guild_02:0 "Guild of knowledge"
+building_legacy_knowledge_guild_02_desc:0 "Guild of knowledge description"
+building_legacy_knowledge_guild_03:0 "Guild of knowledge"
+building_legacy_knowledge_guild_03_desc:0 "Guild of knowledge description"
+
+building_type_legacy_architect_guild_01:0 "Guild of architects"
+building_type_legacy_architect_guild_01_desc:0 "Description"
+building_legacy_architect_guild_01:0 "Guild of architects"
+building_legacy_architect_guild_01_desc:0 "Guild of architects description"
+building_legacy_architect_guild_02:0 "Guild of architects"
+building_legacy_architect_guild_02_desc:0 "Guild of architects description"
+building_legacy_architect_guild_03:0 "Guild of architects"
+building_legacy_architect_guild_03_desc:0 "Guild of architects description"
+
+building_type_legacy_hospital_01:0 "Hospital"
+building_type_legacy_hospital_01_desc:0 "Description"
+building_legacy_hospital_01:0 "Hospital"
+building_legacy_hospital_01_desc:0 "Hospital description"
+building_legacy_hospital_02:0 "Hospital"
+building_legacy_hospital_02_desc:0 "Hospital description"
+building_legacy_hospital_03:0 "Hospital"
+building_legacy_hospital_03_desc:0 "Hospital description"
+
+
+
+################################## WORK IN PROGRESS, NO NEED TO TRANSLATE FOR NOW ####################################
+
+# Scheme brainwash  WORK IN PROGRESS DO NOT TRANSLATE FOR NOW, SUBJECT TO CHANGE#
+scheme_interaction_tt_brainwash_approved:0 " Attempt to brainwash [recipient.GetShortUINameNoTooltip] "
+BRAINWASH_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] is brainwashed"
+BRAINWASH_DISCOVERY_DESC:1 "You are not exposed brainwashing your prisoner"
+brainwash_desc:0 "It is time for [SCHEME.GetTarget.GetShortUINameNoTooltip] to to get his mind cleared!"
+start_brainwash_interaction:1 "Brainwash"
+brainwash_action:0 "Brainwash"
+start_brainwash_interaction_notification:0 "Brainwash"
+
+# Defile Character Interaction WORK IN PROGRESS DO NOT TRANSLATE FOR NOW, SUBJECT TO CHANGE#
+start_defile_interaction1:0 "Defile"
+start_defile_interaction2:0 "Defile"
+start_defile_interaction3:0 "Defile"
+start_defile_interaction4:0 "Defile"
+legacy_defile_desc:0 "Defile [recipient.GetShortUINameNoTooltip]"
+secret_defile:0 "Defiler"
+secret_defile_desc:0 " Defiler"
+secret_defile_tooltip_desc:0 "You have defiled someone"
+secret_defile_type_desc:0 "You have defiled someone"
+legacy_defiled_opinion:0 "Was defiled by you"
+legacy_defiled_modifier:0 "Defiled"
+legacy_defile1_tooltip:0 " TO DO"
+legacy_defile2_tooltip:0 " TO DO"
+legacy_defile3_tooltip:0 " TO DO"
+legacy_defile4_tooltip:0 " TO DO"
+legacy_defile1_name:0 "Name to do"
+legacy_defile2_name:0 "Name to do"
+legacy_defile3_name:0 "Name to do"
+legacy_defile4_name:0 "Name to do"
+legacy.defile1:0 "Event name"
+legacy.defile2:0 "Event name"
+legacy.defile3:0 "Event name"
+legacy.defile4:0 "Event name"
+legacy.defile1.desc:0 "Event text"
+legacy.defile2.desc:0 "Event text"
+legacy.defile3.desc:0 "Event text"
+legacy.defile4.desc:0 "Event text"

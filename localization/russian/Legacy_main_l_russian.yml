@@ -1,0 +1,336 @@
+﻿l_russian:
+#legacy
+legacy_lifestyle_name:0 "Наследие"
+legacy_lifestyle_desc:0 "Сосредоточьтесь на наследии, которое вы оставите своим детям и владениям."
+legacy_lifestyle_highlight_desc:0 "Благодаря вашим знаниям [education|E], вы получаете #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! больше [experience|E] в этом Образе жизни."
+legacy_bloodline_focus:0 "Родословная"
+legacy_bloodline_focus_modifier:1 "[GetFocus('legacy_bloodline_focus').GetName]"
+legacy_bloodline_focus_desc:0 "Тщательное внимание уделяется продолжению рода, чтобы получить наиболее стоящих преемников."
+legacy_bloodline_focus_effect_desc:0 "Фокусировка на Родословной дает:"
+bloodline_name:1 "Родословная"
+legacy_culture_focus:0 "Культура"
+legacy_culture_focus_modifier:1 "[GetFocus('legacy_culture_focus').GetName]"
+legacy_culture_focus_desc:0 "Возвысьте свою культуру над остальными."
+legacy_culture_focus_effect_desc:0 "Фокусировка на Культуре дает:"
+culture_name:1 "Культура"
+legacy_dynasty_focus:0 "Династия"
+legacy_dynasty_focus_modifier:1 "[GetFocus('legacy_dynasty_focus').GetName]"
+legacy_dynasty_focus_desc:0 "Сосредоточьтесь на создании светлого будущего для своей династии."
+legacy_dynasty_focus_effect_desc:0 "Фокусировка на Династии дает:"
+dynasty_name:1 "Династия"
+
+# Legacy: Bloodline
+bloodline_1_perk_name:0 "Долголетие"
+bloodline_2_perk_name:0 "Любвеобильность"
+bloodline_3_perk_name:0 "Семья прежде всего"
+bloodline_4_perk_name:0 "Умиротворение"
+bloodline_5_perk_name:0 "Хорошая наследственность"
+bloodline_6_perk_name:0 "Благоприятные мутации"
+bloodline_7_perk_name:0 "Славная эволюция"
+bloodline_8_perk_name:0 "Благородная мощь"
+bloodline_9_perk_name:0 "Чистокровность"
+
+# Legacy: Culture
+culture_1_perk_name:0 "Культурная пропаганда"
+culture_2_perk_name:0 "Распространение культуры"
+culture_3_perk_name:0 "Культурная новизна"
+culture_4_perk_name:0 "Восхваленный толпой"
+culture_5_perk_name:0 "Развитие земель"
+culture_6_perk_name:0 "Превосходство культуры"
+culture_7_perk_name:0 "Приближенный к Богу"
+culture_8_perk_name:0 "Прирожденный правитель"
+culture_9_perk_name:0 "Инноватор"
+
+# Legacy: Dynasty
+dynasty_1_perk_name:0 "Хорошее образование"
+dynasty_2_perk_name:0 "Острый язык"
+dynasty_3_perk_name:0 "Землевладелец"
+dynasty_4_perk_name:0 "Золотая жила"
+dynasty_5_perk_name:0 "Религиозное рвение"
+dynasty_6_perk_name:0 "Военная подготовка"
+dynasty_7_perk_name:0 "Профессиональный заговорщик"
+dynasty_8_perk_name:0 "Личная слава"
+dynasty_9_perk_name:0 "Старейшина"
+
+# TRAITS #
+trait_pureblood:0 "Чистокровность"
+trait_pureblood_desc:0 "Самая чистая кровь позволяет получить самых благородных потомков. Здоровые дети гарантируют вам преуспевающую династию."
+trait_innovator:0 "Инноватор"
+trait_innovator_desc:0 "Культурное наследие - это ключ к успеху. Пусть ваша культура процветает на фоне остальных."
+trait_elder:0 "Старейшина"
+trait_elder_desc:0 "Великий лидер всегда добьется успеха во всех аспектах и сможет получить наибольшую выгоду из своего правления."
+
+# Action popup  NO NEED OF TRANSLATIONS#
+action_lifestyle_legacy:0 "$action_can_spend_perk_point$"
+action_lifestyle_legacy_label:0 "$action_can_spend_perk_point_label$"
+action_lifestyle_legacy_desc:0 "$action_can_spend_perk_point_desc$"
+action_lifestyle_legacy_click:0 "$action_can_spend_perk_point_click$"
+
+# Perk effects #
+CULTURAL_PROPAGANDA_PERK:0 "Бонус к продвижению культуры"
+CULTURAL_EXPANSION_PERK:0 "Бонус к претензиям на земли"
+HEAVENLY_TOUCHED_PERK:0 "Бонус на смену конфессии "
+INNOVATOR_PERK:0 "Бонус на интегрирование титула"
+
+# Other
+dynn_Manul:0 "Манул"
+dynn_Fevral:0 "Февраль"
+INTEGRATION_PROGRESS_BONUS:0 "Бонус правителя"
+COURT_CHAPLAIN_PROGRESS_BONUS:0 "Бонус правителя"
+STEWARD_PROGRESS_BONUS:0 "Бонус правителя"
+monthly_legacy_lifestyle_xp_gain_mult:0 "Наследие в месяц [lifestyle|El] опыта"
+NOT_CHARACTER_HAS_THIS_OPINION_OF_TARGET_OR_ABOVE:0 "Репутация слишком низкая"
+
+# Legacy lifestyle Effects NOT WORKING#
+
+ADD_LEGACY_SKILL_EFFECT:0 "[legacy|E] is increased by $VALUE|V0$"
+REMOVE_LEGACY_SKILL_EFFECT:0 "[legacy|E] is decreased by $VALUE|V0$"
+I_ADD_LEGACY_SKILL_EFFECT:1 "You increase your [legacy|E] by $VALUE|+0$"
+I_REMOVE_LEGACY_SKILL_EFFECT:1 "You decrease your [legacy|E] by $VALUE|-0$"
+THEY_ADD_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] increases [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+THEY_REMOVE_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] decreases [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+ADDED_LEGACY_SKILL_EFFECT:0 "[legacy|E] was increased by $VALUE|V0$"
+REMOVED_LEGACY_SKILL:0 "[legacy|E] was decreased by $VALUE|V0$"
+I_ADDED_LEGACY_SKILL_EFFECT:1 "You increased your [legacy|E] by $VALUE|+0$"
+I_REMOVED_LEGACY_SKILL_EFFECT:1 "You decreased your [legacy|E] by $VALUE|-0$"
+THEY_ADDED_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] increased [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+THEY_REMOVED_LEGACY_SKILL_EFFECT:0 "[CHARACTER.GetShortUIName|U] decreased [CHARACTER.GetHerHis] [legacy|E] by $VALUE|V0$"
+
+GAINS_LEGACY_LIFESTYLE_XP:2 "Gains $VALUE|V0$ [legacy_lifestyle|E] Experience"
+GAINED_LEGACY_LIFESTYLE_XP:2 "Gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+I_GAIN_LEGACY_LIFESTYLE_XP:2 "You gain $VALUE|V0$ [legacy_lifestyle|E] Experience"
+I_GAINED_LEGACY_LIFESTYLE_XP:2 "You gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+TARGET_GAINS_LEGACY_LIFESTYLE_XP:2 "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [legacy_lifestyle|E] Experience"
+TARGET_GAINED_LEGACY_LIFESTYLE_XP:2 "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [legacy_lifestyle|E] Experience"
+
+GAINS_A_LEGACY_LIFESTYLE_PERKPOINT:2 "Gains $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "Gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+I_GAIN_A_LEGACY_LIFESTYLE_PERKPOINT:2 "You gain $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+I_GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "You gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+TARGET_GAINS_A_LEGACY_LIFESTYLE_PERKPOINT:2 "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+TARGET_GAINED_A_LEGACY_LIFESTYLE_PERKPOINT:2 "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [legacy_lifestyle|E] [perk|E] Unlock"
+
+
+
+# Prisoner decision #
+prisoner_decision:0 "Новый заключенный"
+prisoner_decision_tooltip:0 "Нужен ли мне новый заключенный в тюрьме?"
+prisoner_decision_desc:0 "Мне скучно. Может перевести заключенного в мою тюрьму? Это могло бы быть забавно."
+prisoner_decision_confirm:0 "Давайте-ка взглянем на это!"
+prisoner_decision_info:0 "В вашу личную темницу будет переведен заключенный."
+
+# Marshal decision #
+marshal_decision:0 "Тренировка с Маршалом"
+marshal_decision_tooltip:0 "Как насчет тренировки с Маршалом?"
+marshal_decision_desc:0 "A не пойти ли мне потренироваться с моим маршалом."
+marshal_decision_confirm:0 "Начнем тренировку!"
+marshal_decision_info:0 "Проведите интенсивную боевую подготовку и получить бонус."
+
+# Chancellor decision #
+chancellor_decision:0 "Дипломатические визиты с Канцлером"
+chancellor_decision_tooltip:0 "Было бы хорошей идеей провести время с Канцлером и посетить знать."
+chancellor_decision_desc:0 "Я собираюсь посетить знать с Канцлером. Это могло бы оказаться полезным."
+chancellor_decision_confirm:0 "В путь!"
+chancellor_decision_info:0 "Поработайте с Канцлером и получите бонус."
+
+# Steward decision #
+steward_decision:0 "Руководить владениями с Управляющим"
+steward_decision_tooltip:0 "Насколько хорошо Управляющий делает свою работу?"
+steward_decision_desc:0 "Я помогу Управляющему руководить владениями."
+steward_decision_confirm:0 "Приступим к работе!"
+steward_decision_info:0 "Поработайте с Управляющим и получите бонус."
+
+# Spymaster decision #
+spymaster_decision:0 "Устроить происки с Тайным советником"
+spymaster_decision_tooltip:0 "Интересно, чем занят Тайный советник?"
+spymaster_decision_desc:0 "А не помочь бы ли мне Тайному советнику продумать и осуществить происки."
+spymaster_decision_confirm:0 "Начнем происки!"
+spymaster_decision_info:0 "Поработайте с Тайным советником и получите бонус."
+
+# Chaplain decision #
+chaplain_decision:0 "Учение - Свет"
+chaplain_decision_tooltip:0 "Что нового бы мне сегодня изучить?"
+chaplain_decision_desc:0 "Я буду изучать старинные книги с [ROOT.Char.Custom('MyPriestTitle')]ом."
+chaplain_decision_confirm:0 "Вперед к знаниям!"
+chaplain_decision_info:0 "Изучите старые книги и получите бонус."
+
+# Spouse decision #
+spouse_decision:0 "Провести время с супругом/супругой"
+spouse_decision_tooltip:0 "Мне стоит провести время с любимым человеком."
+spouse_decision_desc:0 "Я проведу время с Супругом/супругой."
+spouse_decision_confirm:0 "Приступим!"
+spouse_decision_info:0 "Проведите время с Супругом/супругой."
+
+# witch decision #
+witch_decision:0 "Посетить ведьму"
+witch_decision_tooltip:0 "Стоит ли мне посетить ее?"
+witch_decision_desc:0 "Я слышал, что некая 'ведьма' прибыла в мои владения. Судя по слухам, она варит необычайные зелья. Может мне стоит к ней заглянуть?"
+witch_decision_confirm:0 "Нанесем ей визит."
+witch_decision_info:0 "Посетите злую ведьму и расспросите ее о зельях."
+
+# Abdication decision #
+abdication_decision:0 "Отречься от власти"
+abdication_decision_tooltip:0 "Отречься от престола и играть за наследника."
+abdication_decision_desc:0 "Каждый день я начинаю задумываться, что занимаюсь чем то не тем . Может мне пора отойти от власти?"
+abdication_decision_confirm:0 "Я действительно должен это сделать?"
+abdication_decision_info:0 "Отречься от власти и играть за своего наследника"
+
+
+# Modifiers names #
+legacy_chancellor1_modifier:0 "Одобрение -5"
+legacy_chancellor2_modifier:0 "Одобрение -4"
+legacy_chancellor3_modifier:0 "Одобрение -3"
+legacy_chancellor4_modifier:0 "Одобрение -2"
+legacy_chancellor5_modifier:0 "Одобрение -1"
+legacy_chancellor6_modifier:0 "Одобрение +1"
+legacy_chancellor7_modifier:0 "Одобрение +2"
+legacy_chancellor8_modifier:0 "Одобрение +3"
+legacy_chancellor9_modifier:0 "Одобрение +4"
+legacy_chancellor10_modifier:0 "Одобрение +5"
+
+legacy_steward1_modifier:0 "Администрирование -5"
+legacy_steward2_modifier:0 "Администрирование -4"
+legacy_steward3_modifier:0 "Администрирование -3"
+legacy_steward4_modifier:0 "Администрирование -2"
+legacy_steward5_modifier:0 "Администрирование -1"
+legacy_steward6_modifier:0 "Администрирование +1"
+legacy_steward7_modifier:0 "Администрирование +2"
+legacy_steward8_modifier:0 "Администрирование +3"
+legacy_steward9_modifier:0 "Администрирование +4"
+legacy_steward10_modifier:0 "Администрирование +5"
+
+legacy_chaplain1_modifier:0 "Набожность-5"
+legacy_chaplain2_modifier:0 "Набожность -4"
+legacy_chaplain3_modifier:0 "Набожность -3"
+legacy_chaplain4_modifier:0 "Набожность -2"
+legacy_chaplain5_modifier:0 "Набожность -1"
+legacy_chaplain6_modifier:0 "Набожность +1"
+legacy_chaplain7_modifier:0 "Набожность +2"
+legacy_chaplain8_modifier:0 "Набожность +3"
+legacy_chaplain9_modifier:0 "Набожность +4"
+legacy_chaplain10_modifier:0 "Набожность +5"
+
+legacy_spymaster1_modifier:0 "Хитрость -5"
+legacy_spymaster2_modifier:0 "Хитрость -4"
+legacy_spymaster3_modifier:0 "Хитрость -3"
+legacy_spymaster4_modifier:0 "Хитрость -2"
+legacy_spymaster5_modifier:0 "Хитрость -1"
+legacy_spymaster6_modifier:0 "Хитрость +1"
+legacy_spymaster7_modifier:0 "Хитрость +2"
+legacy_spymaster8_modifier:0 "Хитрость +3"
+legacy_spymaster9_modifier:0 "Хитрость +4"
+legacy_spymaster10_modifier:0 "Хитрость +5"
+
+legacy_marshal1_modifier:0 "Боевая подготовка -5"
+legacy_marshal2_modifier:0 "Боевая подготовка -4"
+legacy_marshal3_modifier:0 "Боевая подготовка -3"
+legacy_marshal4_modifier:0 "Боевая подготовка -2"
+legacy_marshal5_modifier:0 "Боевая подготовка -1"
+legacy_marshal6_modifier:0 "Боевая подготовка +1"
+legacy_marshal7_modifier:0 "Боевая подготовка +2"
+legacy_marshal8_modifier:0 "Боевая подготовка +3"
+legacy_marshal9_modifier:0 "Боевая подготовка +4"
+legacy_marshal10_modifier:0 "Боевая подготовка +5"
+
+legacy_special1_modifier:0 "Коварность-5"
+legacy_special2_modifier:0 "Коварность -4"
+legacy_special3_modifier:0 "Коварность -3"
+legacy_special4_modifier:0 "Коварность -2"
+legacy_special5_modifier:0 "Коварность -1"
+legacy_special6_modifier:0 "Коварность +1"
+legacy_special7_modifier:0 "Коварность +2"
+legacy_special8_modifier:0 "Коварность +3"
+legacy_special9_modifier:0 "Коварность +4"
+legacy_special10_modifier:0 "Коварность +5"
+
+legacy_health1_modifier:0 "Физическая подготовка -5"
+legacy_health2_modifier:0 "Физическая подготовка -4"
+legacy_health3_modifier:0 "Физическая подготовка -3"
+legacy_health4_modifier:0 "Физическая подготовка -2"
+legacy_health5_modifier:0 "Физическая подготовка -1"
+legacy_health6_modifier:0 "Физическая подготовка +1"
+legacy_health7_modifier:0 "Физическая подготовка +2"
+legacy_health8_modifier:0 "Физическая подготовка +3"
+legacy_health9_modifier:0 "Физическая подготовка +4"
+legacy_health10_modifier:0 "Физическая подготовка +5"
+
+legacy_spouse1_modifier:0 "Семьянин -5"
+legacy_spouse2_modifier:0 "Семьянин -4"
+legacy_spouse3_modifier:0 "Семьянин -3"
+legacy_spouse4_modifier:0 "Семьянин -2"
+legacy_spouse5_modifier:0 "Семьянин -1"
+legacy_spouse6_modifier:0 "Семьянин +1"
+legacy_spouse7_modifier:0 "Семьянин +2"
+legacy_spouse8_modifier:0 "Семьянин +3"
+legacy_spouse9_modifier:0 "Семьянин +4"
+legacy_spouse10_modifier:0 "Семьянин +5"
+
+legacy_witch1_modifier:0 "Вкусное Зелье"
+legacy_witch2_modifier:0 "Отвратительное Зелье"
+
+legacy_dishonor_modifier:0 "Позор"
+legacy_treated_wounds_modifier:0 "Обработанные раны"
+
+# Opinion modifiers names #
+
+legacy_treated_opinion:0 "Зелечил раны"
+
+# interactions #
+start_treat_interaction:0 "Лечить раны"
+legacy_treat_desc:0 "Вылечите раны вашего узника"
+
+# Dutchy Buildings
+
+building_type_legacy_prison_01:0 "Тюрьма"
+building_type_legacy_prison_01_desc:0 "Description"
+building_legacy_prison_01:0 "Тюрьма"
+building_legacy_prison_01_desc:0 "Тюрьма description"
+building_legacy_prison_02:0 "Тюрьма"
+building_legacy_prison_02_desc:0 "Тюрьма description"
+building_legacy_prison_03:0 "Тюрьма"
+building_legacy_prison_03_desc:0 "Тюрьма description"
+
+building_type_legacy_noble_palace_01:0 "Дворец"
+building_type_legacy_noble_palace_01_desc:0 "Description"
+building_legacy_noble_palace_01:0 "Дворец"
+building_legacy_noble_palace_01_desc:0 "Дворец description"
+building_legacy_noble_palace_02:0 "Дворец"
+building_legacy_noble_palace_02_desc:0 "Дворец description"
+building_legacy_noble_palace_03:0 "Дворец"
+building_legacy_noble_palace_03_desc:0 "Дворец description"
+
+building_type_legacy_monument_01:0 "Памятник"
+building_type_legacy_monument_01_desc:0 "Description"
+building_legacy_monument_01:0 "Памятник"
+building_legacy_monument_01_desc:0 "Памятник description"
+building_legacy_monument_02:0 "Памятник"
+building_legacy_monument_02_desc:0 "Памятник description"
+building_legacy_monument_03:0 "Памятник"
+building_legacy_monument_03_desc:0 "Памятник description"
+
+building_type_legacy_knowledge_guild_01:0 "Гильдия знаний"
+building_type_legacy_knowledge_guild_01_desc:0 "Description"
+building_legacy_knowledge_guild_01:0 "Гильдия знаний"
+building_legacy_knowledge_guild_01_desc:0 "Гильдия знаний description"
+building_legacy_knowledge_guild_02:0 "Гильдия знаний"
+building_legacy_knowledge_guild_02_desc:0 "Гильдия знаний description"
+building_legacy_knowledge_guild_03:0 "Гильдия знаний"
+building_legacy_knowledge_guild_03_desc:0 "Гильдия знаний description"
+
+building_type_legacy_architect_guild_01:0 "Гильдия архитекторов"
+building_type_legacy_architect_guild_01_desc:0 "Description"
+building_legacy_architect_guild_01:0 "Гильдия архитекторов"
+building_legacy_architect_guild_01_desc:0 "Гильдия архитекторов description"
+building_legacy_architect_guild_02:0 "Гильдия архитекторов"
+building_legacy_architect_guild_02_desc:0 "Гильдия архитекторов description"
+building_legacy_architect_guild_03:0 "Гильдия архитекторов"
+building_legacy_architect_guild_03_desc:0 "Гильдия архитекторов description"
+
+building_type_legacy_hospital_01:0 "Госпиталь"
+building_type_legacy_hospital_01_desc:0 "Description"
+building_legacy_hospital_01:0 "Госпиталь"
+building_legacy_hospital_01_desc:0 "Госпиталь description"
+building_legacy_hospital_02:0 "Госпиталь"
+building_legacy_hospital_02_desc:0 "Госпиталь description"
+building_legacy_hospital_03:0 "Госпиталь"
+building_legacy_hospital_03_desc:0 "Госпиталь description"

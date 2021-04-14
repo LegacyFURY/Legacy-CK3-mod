@@ -1,0 +1,191 @@
+﻿l_english:
+
+# Prison event main#
+legacy.prisoner:0 "At the prison."
+legacy.prisoner.desc:0 "You arrive with your guards at the capital city prison. The jailor welcomes you and invite you to have a look at the prison registry. Who should you transfer to your own prison?"
+
+# Options name #
+prisoner_0:0 "I don't really care, just send anyone to my prison."
+prisoner_1:0 "This sweet girl is what i need!"
+prisoner_2:0 "This young boy would be perfect in my dungeon!"
+prisoner_3:0 "This young lady will amuse me!"
+prisoner_4:0 "This young lad is what i want!"
+prisoner_5:0 "This old lady would be delightful in my cell!"
+prisoner_6:0 "This old man will decorate my prison!"
+prisoner_7:0 "This giant guy could be perfect in my army."
+prisoner_8:0 "So perfect, but so ussless."
+prisoner_9:0 "A witch? she would be useful."
+prisoner_10:0 "This one eats a lot."
+prisoner_11:0 "Is it a kid in a mask? No it's just a cunning dwarf."
+prisoner_12:0 "This individual look suspicious to me."
+prisoner_13:0 "Ugly, weak and stupid. Do i really need this one?"
+prisoner_14:0 "Hum, this one is kinky for sure."
+prisoner_15:0 "I Could really have some fun with this one."
+
+# Options tooltip #
+legacy_prisoner0:0 "Add a random prisoner"
+legacy_prisoner1:0 "Add a young girl."
+legacy_prisoner2:0 "Add a young boy."
+legacy_prisoner3:0 "Add a young lady."
+legacy_prisoner4:0 "Add a young man."
+legacy_prisoner5:0 "Add an old lady."
+legacy_prisoner6:0 "Add an old man."
+legacy_prisoner7:0 "Add a giant warrior."
+legacy_prisoner8:0 "Add an majectic eunuch."
+legacy_prisoner9:0 "Add a blind witch."
+legacy_prisoner10:0 "Add a canibal steward."
+legacy_prisoner11:0 "Add a dwarf assassin."
+legacy_prisoner12:0 "Add a lunatic diplomat."
+legacy_prisoner13:0 "Add a fecund disaster."
+legacy_prisoner14:0 "Add a pervert."
+legacy_prisoner15:0 "Add a whore."
+
+# Marshal event #
+legacy.marshal0:0 "At my Marshal camp"
+legacy.marshal0.desc:0 "Early in the morning I arrive at the camp. I see my [marshal|E] is already training my army.  As soon as he sees me, he greets me:\n\n"Welcome my liege. I have reseived your note that you wanted some personal training today. I'm ready when you are." "
+legacy_marshal0_name:0 "Let's start the training."
+legacy_marshal0_tooltip:0 "Spend the day training with my Marshal."
+
+legacy.marshal1:0 "The training didn't went well"
+legacy.marshal1.desc:0 "We passed all day long arguing with my Marshal. I could not understand why he was commanding my army such a way. After that we tried to spar for some time. But my Marshal went so hard on me. This day didn't went as planned, i probably should go take a bath."
+legacy_marshal1_name:0 "Awful training."
+legacy_marshal1_tooltip:0 "My Marshal went hard on me."
+
+legacy.marshal2:0 "The training went well"
+legacy.marshal2.desc:0 "We have passed all the day talking about tactics and strategy. After that my Marshal has personaly trained me archery and sparred for an hour or two. At the end of the day i was feeling great, I have learned a bit about how to command my army, and was physically fit."
+legacy_marshal2_name:0 "Great training."
+legacy_marshal2_tooltip:0 "I learned something new today."
+
+# Spymaster event #
+legacy.spymaster0:0 "At my Spymaster hideout"
+legacy.spymaster0.desc:0 "My [spymaster|E] is always planning and scheming on something, and i was very intrigued about what is happening in the shadows. That day i have decided to pay a visite and see what's going on. My Spymaster was not surprised to see me:\n\n"You arrive as planned, my liege. I was waiting for you. I have something intresting documents to show." "
+legacy_spymaster0_name:0 "Let us look at those documents."
+legacy_spymaster0_tooltip:0 "Spend the day scheming with my Spymaster."
+
+legacy.spymaster1:0 "Unfruitful scheming"
+legacy.spymaster1.desc:0 "All day long we have tried to plan how we could use our pawns in a meaningful way. But were was always some small details that would prevent us from planning anything viable. A the end me and my Spymaster finished the day drinking wine and talking about some weird deviances that are commonly practised in a far away land."
+legacy_spymaster1_name:0 "At least we had some fun."
+legacy_spymaster1_tooltip:0 "We have not come to anything."
+
+legacy.spymaster2:0 "Fructiuous scheming"
+legacy.spymaster2.desc:0 "My Spymaster was not the only one with some intriguing documents. I also had something in my sleve. With all these documents we quickly figured out how we could pull some strings on diferent nobles and courtiers. We finished the day drinking wine, talking about a count stucked naked in a barrel."
+legacy_spymaster2_name:0 "Scheming was so fun to do."
+legacy_spymaster2_tooltip:0 "We had a very productive day."
+
+# Chancellor event #
+legacy.chancellor0:0 "Visite some local nobles"
+legacy.chancellor0.desc:0 "My [chancellor|E] was happy when i informed him that i would pass some time with him. He would not stop talking about how important it was to have a good relationship with local nobles, and how beneficial it will be.\n\n"My liege, we are arriving, we really need to make a good impression on them. This would be a disaster if something goes wrong!" "
+legacy_chancellor0_name:0 "Don't worry, everything will be fine."
+legacy_chancellor0_tooltip:0 "Spend the day with some nobles."
+
+legacy.chancellor1:0 "Disastrous visite"
+legacy.chancellor1.desc:0 "Everything went fine, until we opened the fourth bottle of wine. I really don't know what happened. When I woke up, I was sleeping on the table. I quickly starter to search for my Chancellor, only to find him in the barn sitting & talking with a goat about the importance of a good relationship with farm animals. I quickly pulled him up and ordered my guards to bring us back to the castle."
+legacy_chancellor1_name:0 "What a disgrace."
+legacy_chancellor1_tooltip:0 "The visit didn't went as planned."
+
+legacy.chancellor2:0 "Wonderful visite"
+legacy.chancellor2.desc:0 "Everything went fine. We had a wonderful dinner with our hosts. We would talk about local poltics, my Chancellor would amuse us with some jokes. Our hosts were very happy to see us, in the evening me and my Chancellor departed back to the castle."
+legacy_chancellor2_name:0 "We passed a very good day."
+legacy_chancellor2_tooltip:0 "The visit went as planned."
+
+# Steward event #
+legacy.steward0:0 "Throne room"
+legacy.steward0.desc:0 "My [steward|E] was waiting for me in the throne room, dealing with some servants, giving them orders. He send them off as soon as I enter the throne room and welcomes me:\n\n"Good day to you, my liege. I am very happy to see you. I have a list of most urgent matters that I need to discuss with you." "
+legacy_steward0_name:0 "Let us see this urgent matters of yours."
+legacy_steward0_tooltip:0 "Work all day with my Steward."
+
+legacy.steward1:0 "Worthless day"
+legacy.steward1.desc:0 "The list of task was exhaustive. We tried to start solve some of this tasks, but either we could not see any solution, or my Steward was not sure of the best way to solve them. A the end of the day nothing was done. We have passed all day long arguing and not came to anything."
+legacy_steward1_name:0 "Useless waste of time."
+legacy_steward1_tooltip:0 "We have not come up with anything."
+
+legacy.steward2:0 "Productive day"
+legacy.steward2.desc:0 "The list of task was exhaustive. All day long we were receiving servants and commoners and try to solve their problems. We didn't stop till night time. At the end of the day all ugrent problems were solved."
+legacy_steward2_name:0 "Very productive day."
+legacy_steward2_tooltip:0 "Me and my Steward have solved all urgent problems."
+
+# Chaplain event #
+legacy.chaplain0:0 "At the library"
+legacy.chaplain0.desc:0 "My [ROOT.Char.Custom('MyPriestTitle')] has always requested that I study with him in my castle library. I never really had time for this, but today i have desided to do it.\n\n"I welcome you, my liege. I'm very happy you finaly showed up. Let us study a little, I'm sure i could teach you something new." "
+legacy_chaplain0_name:0 "Let us start."
+legacy_chaplain0_tooltip:0 "Study all day at the library."
+
+legacy.chaplain1:0 "Worthless knowledge"
+legacy.chaplain1.desc:0 "All day long my [ROOT.Char.Custom('MyPriestTitle')] tried to teach me some weird knoweldge. He gave me some old books and scrolls to read, but I was clearly not interested into reading them. At one point i found an occasion to go away from the library. I was not expecting this to be so boring."
+legacy_chaplain1_name:0 "What a waste of time."
+legacy_chaplain1_tooltip:0 "I have not learned anything today."
+
+legacy.chaplain2:0 "Useful knowledge."
+legacy.chaplain2.desc:0 "That day my [ROOT.Char.Custom('MyPriestTitle')] brought me very old books, religous texts and old scrolls. I had no idea about all that knowledge before. I stayed there till midnight reading and asking question to my [ROOT.Char.Custom('MyPriestTitle')]. "
+legacy_chaplain2_name:0 "That was interesting."
+legacy_chaplain2_tooltip:0 "All that knowledge will surely be helpful."
+
+# Spouse event #
+legacy.spouse0:0 "My private quarters"
+legacy.spouse0.desc:0 "I never had the chance to pass some free time with my [spouse|E]. But today was the day i would leave all other matters and join my Spouse in our private quarters.\n\n"I was not expecting to see you so early. I thought you had some important duties today?"
+legacy_spouse0_name:0 "I always have some time for you."
+legacy_spouse0_tooltip:0 "Spend some time with my spouse."
+
+legacy.spouse1:0 "A horrible day"
+legacy.spouse1.desc:0 "At first our day was nice and sweet. We had lovely conversations. But eventualy we started to argue, furniture started to fly all over the room. At one point my guard had to intervein and get me out of there."
+legacy_spouse1_name:0 "What a waste of time."
+legacy_spouse1_tooltip:0 "I would rather past my day doing other things."
+
+legacy.spouse2:0 "A lovely day"
+legacy.spouse2.desc:0 "We passed some lovely time with my Spouse. It was a pleasure to finaly forget all my duties and to relax for a day. We had some sweet conversations, we also had good laughts and we finished the day in bed. It felt like at our first date."
+legacy_spouse2_name:0 "What a lovely day."
+legacy_spouse2_tooltip:0 "I had a wonderful day with my Spouse."
+
+# Witch event #
+legacy.witch0:0 "At the witch hut"
+legacy.witch0.desc:0 "I arrive escorted by my guards where my informant spotted the witch. I see a small hut with a dim light coming from inside. I order the guards to wait and calmly enter the hut.\n\n  "You have finaly arrived. I was waiting for you. So you want one of my potions? But you need to be carefull with what you wish for. Are you really sure you want a potion? I leave you a last chance to go away if you want." "
+
+legacy_witch_1_name:0 "Yes, bring me this potions!"
+legacy_witch_1_tooltip:0 "Get a selection of magical potions."
+legacy_witch_2_name:0 "I don't think I'm ready. I probably should go away."
+legacy_witch_2_tooltip:0 "Go away without getting any potions."
+
+legacy.witch1:0 "At the witch hut"
+legacy.witch1.desc:0 " The witch come back with 3 potions and offer me to drink one. I need to select which one i will take."
+legacy_witch1_tooltip:0 "Drink the mysterious potion."
+
+legacy_witch1_name:0 "Cyclop eye potion"
+legacy_witch2_name:0 "Werewolf tongue potion"
+legacy_witch3_name:0 "Gorgon tears potion"
+legacy_witch4_name:0 "Fairy dust potion"
+legacy_witch5_name:0 "Satyr blood potion"
+legacy_witch6_name:0 "Deamon wing potion"
+legacy_witch7_name:0 "Dragon scale potion"
+legacy_witch8_name:0 "Ghost essence potion"
+legacy_witch9_name:0 "Vampire fang potion"
+legacy_witch10_name:0 "Black perl potion"
+legacy_witch11_name:0 "Goblin brain potion"
+legacy_witch12_name:0 "Manticore liver potion"
+legacy_witch13_name:0 "Giant heart potion"
+legacy_witch14_name:0 "Witch hair potion"
+legacy_witch15_name:0 "Rabbit egg potion"
+legacy_witch16_name:0 "Minotaur bone potion"
+legacy_witch17_name:0 "Yeti meat potion"
+legacy_witch18_name:0 "Snake venom potion"
+legacy_witch19_name:0 "Mermaid tail potion"
+legacy_witch20_name:0 "Unicorn horn potion"
+legacy_witch21_name:0 "Griffin claw potion"
+
+# treat wounds event #
+legacy.treat1:0 "At the prison"
+legacy.treat1.desc:0 "I was probably to harsh with my prisoner. My physician should treat this nasty wounds before my prisoner dies."
+legacy_treat1_name:0 "Treat wounds"
+legacy_treat1_tooltip:0 "Order to treat wounds of your prisoners."
+
+# Abdication event #
+legacy.abdication0: "Abdication"
+legacy.abdication0.desc: "I think I'm ready to declare my heir the new ruler. I'm so tired, i just want to relax and do other things while i can."
+legacy_abdication1_name: "No i can't do it. What a stupid idea i had!"
+legacy_abdication1_tooltip: "You stay in power, for now."
+legacy_abdication2_name: "It's probably the best solution."
+legacy_abdication2_tooltip: "You renounce of all your titles."
+
+
+
+
+
