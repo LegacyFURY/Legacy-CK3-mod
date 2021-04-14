@@ -1,0 +1,160 @@
+﻿namespace = legacy_defile
+
+legacy_defile.0001 = {
+	type = character_event
+	title = legacy.defile1
+	desc = legacy.defile1.desc
+	theme = prison
+	left_portrait = {
+		character = scope:actor
+		animation = scheme
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+		animation = fear
+	}
+		
+	option = {
+		name = legacy_defile1_name
+		custom_tooltip = legacy_defile1_tooltip
+
+		scope:recipient = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+				}		
+			add_opinion = {
+			target = scope:actor
+			modifier = legacy_defiled_opinion 
+							}
+			add_character_modifier = { modifier = legacy_defiled_modifier years = 10 }
+			add_stress = major_stress_gain
+									
+		}	
+		scope:actor = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+			
+		had_sex_with_effect = {
+			CHARACTER = scope:recipient
+			PREGNANCY_CHANCE = pregnancy_chance
+		}
+		
+		defile_effect = yes
+		
+	    random_secret = {
+			limit = { secret_type = secret_defile
+            NOT = { is_known_by = scope:recipient } }
+			reveal_to = scope:recipient }
+		
+		}
+	}
+
+legacy_defile.0002 = {
+	type = character_event
+	title = legacy.defile2
+	desc = legacy.defile2.desc
+	theme = prison
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+		animation = fear
+	}
+		
+	option = {
+		name = legacy_defile2_name
+		custom_tooltip = legacy_defile2_tooltip
+
+		scope:recipient = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+		}
+		scope:actor = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+		}
+	}
+}
+
+legacy_defile.0003 = {
+	type = character_event
+	title = legacy.defile3
+	desc = legacy.defile3.desc
+	theme = prison
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+		animation = fear
+	}
+		
+	option = {
+		name = legacy_defile3_name
+		custom_tooltip = legacy_defile3_tooltip
+
+		scope:recipient = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			had_sex_with_effect = {
+			CHARACTER = scope:actor
+			PREGNANCY_CHANCE = pregnancy_chance
+		}
+			}
+		}
+		scope:actor = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+		}
+	}
+}
+
+legacy_defile.0004 = {
+	type = character_event
+	title = legacy.defile4
+	desc = legacy.defile4.desc
+	theme = prison
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+		animation = fear
+	}
+		
+	option = {
+		name = legacy_defile4_name
+		custom_tooltip = legacy_defile4_tooltip
+
+		scope:recipient = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+		}
+		scope:actor = {
+			if = {
+				limit = { has_character_flag = is_naked }
+				remove_character_flag = is_naked
+			}
+		}
+	}
+}

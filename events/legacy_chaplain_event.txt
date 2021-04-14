@@ -1,0 +1,294 @@
+﻿namespace = legacy_chaplain
+
+### Starting event ###
+
+legacy_chaplain.1000 = {
+	type = character_event
+	title = legacy.chaplain0
+	desc = legacy.chaplain0.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}
+		
+	option = {
+		name = legacy_chaplain0_name
+		custom_tooltip = legacy_chaplain0_tooltip
+		
+		trigger_event = {
+					on_action = legacy.chaplain.rnd
+				}	
+			}
+		}
+
+
+### Event 1 ###
+		
+legacy_chaplain.1001 = {
+	type = character_event
+	title = legacy.chaplain1
+	desc = legacy.chaplain1.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = personality_callous
+	}
+	option = {
+		name = legacy_chaplain1_name
+		custom_tooltip = legacy_chaplain1_tooltip
+		
+		add_character_modifier = { modifier = legacy_chaplain1_modifier years = 3 }
+		add_learning_lifestyle_xp = miniscule_lifestyle_xp
+		add_piety = medium_piety_loss
+			}
+		}
+		
+
+### Event 2 ###
+		
+legacy_chaplain.1002 = {
+	type = character_event
+	title = legacy.chaplain1
+	desc = legacy.chaplain1.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = personality_callous
+	}		
+	option = {
+		name = legacy_chaplain1_name
+		custom_tooltip = legacy_chaplain1_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain2_modifier years = 3 }
+		add_learning_lifestyle_xp = minor_lifestyle_xp
+		add_piety = minor_piety_loss
+		
+			}
+		}
+
+### Event 3 ###
+		
+legacy_chaplain.1003 = {
+	type = character_event
+	title = legacy.chaplain1
+	desc = legacy.chaplain1.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = personality_callous
+	}		
+	option = {
+		name = legacy_chaplain1_name
+		custom_tooltip = legacy_chaplain1_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain3_modifier years = 3 }
+		add_learning_lifestyle_xp = medium_lifestyle_xp
+		add_piety = minor_piety_loss
+		
+			}
+		}		
+
+### Event 4 ###
+		
+legacy_chaplain.1004 = {
+	type = character_event
+	title = legacy.chaplain1
+	desc = legacy.chaplain1.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = personality_callous
+	}	
+	option = {
+		name = legacy_chaplain1_name
+		custom_tooltip = legacy_chaplain1_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain4_modifier years = 3 }
+		add_learning_lifestyle_xp = medium_lifestyle_xp
+		add_piety = miniscule_piety_loss
+		
+			}
+		}
+
+### Event 5 ###
+		
+legacy_chaplain.1005 = {
+	type = character_event
+	title = legacy.chaplain1
+	desc = legacy.chaplain1.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = personality_callous
+	}	
+	option = {
+		name = legacy_chaplain1_name
+		custom_tooltip = legacy_chaplain1_tooltip
+		
+		add_character_modifier = { modifier = legacy_chaplain5_modifier years = 3 }
+		add_learning_lifestyle_xp = major_lifestyle_xp
+		add_piety = miniscule_piety_loss
+		
+			}
+		}		
+
+
+### Event 6 ###
+		
+legacy_chaplain.1006 = {
+	type = character_event
+	title = legacy.chaplain2
+	desc = legacy.chaplain2.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}
+	option = {
+		name = legacy_chaplain2_name
+		custom_tooltip = legacy_chaplain2_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain6_modifier years = 3 }
+		add_learning_lifestyle_xp = major_lifestyle_xp
+		add_piety = miniscule_piety_gain
+		
+			}
+		}		
+		
+
+### Event 7 ###
+		
+legacy_chaplain.1007 = {
+	type = character_event
+	title = legacy.chaplain2
+	desc = legacy.chaplain2.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}		
+	option = {
+		name = legacy_chaplain2_name
+		custom_tooltip = legacy_chaplain2_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain7_modifier years = 3 }
+		add_learning_lifestyle_xp = massive_lifestyle_xp
+		add_piety = minor_piety_gain
+		
+			}
+		}		
+		
+
+### Event 8 ###
+		
+legacy_chaplain.1008 = {
+	type = character_event
+	title = legacy.chaplain2
+	desc = legacy.chaplain2.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}		
+	option = {
+		name = legacy_chaplain2_name
+		custom_tooltip = legacy_chaplain2_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain8_modifier years = 3 }
+		add_learning_lifestyle_xp = massive_lifestyle_xp
+		add_piety = medium_piety_gain
+		
+			}
+		}	
+		
+
+### Event 9 ###
+		
+legacy_chaplain.1009 = {
+	type = character_event
+	title = legacy.chaplain2
+	desc = legacy.chaplain2.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}		
+	option = {
+		name = legacy_chaplain2_name
+		custom_tooltip = legacy_chaplain2_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain9_modifier years = 3 }
+		add_learning_lifestyle_xp = monumental_lifestyle_xp
+		add_piety = major_piety_gain
+		
+			}
+		}		
+		
+
+### Event 10 ###
+		
+legacy_chaplain.1010 = {
+	type = character_event
+	title = legacy.chaplain2
+	desc = legacy.chaplain2.desc
+	theme = studyroom
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = cp:councillor_court_chaplain
+		animation = chaplain
+	}		
+	option = {
+		name = legacy_chaplain2_name
+		custom_tooltip = legacy_chaplain2_tooltip
+
+		add_character_modifier = { modifier = legacy_chaplain10_modifier years = 3 }
+		add_learning_lifestyle_xp = monumental_lifestyle_xp
+		add_piety = massive_piety_gain
+		
+			}
+		}	
+		

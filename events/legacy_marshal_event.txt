@@ -1,0 +1,289 @@
+﻿namespace = legacy_marshal
+
+### Starting event ###
+
+legacy_marshal.1000 = {
+	type = character_event
+	title = legacy.marshal0
+	desc = legacy.marshal0.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}
+		
+	option = {
+		name = legacy_marshal0_name
+		custom_tooltip = legacy_marshal0_tooltip
+		
+		trigger_event = {
+					on_action = legacy.marshal.rnd
+				}	
+			}
+		}
+
+
+### Event 1 ###
+		
+legacy_marshal.1001 = {
+	type = character_event
+	title = legacy.marshal1
+	desc = legacy.marshal1.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = pain
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = fear
+	}
+	option = {
+		name = legacy_marshal1_name
+		custom_tooltip = legacy_marshal1_tooltip
+		
+		add_character_modifier = { modifier = legacy_marshal1_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health1_modifier years = 3 }
+		add_martial_lifestyle_xp = miniscule_lifestyle_xp
+			}
+		}
+		
+
+### Event 2 ###
+		
+legacy_marshal.1002 = {
+	type = character_event
+	title = legacy.marshal1
+	desc = legacy.marshal1.desc
+	theme = camp
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_honorable
+	}		
+	option = {
+		name = legacy_marshal1_name
+		custom_tooltip = legacy_marshal1_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal2_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health2_modifier years = 3 }
+		add_martial_lifestyle_xp = minor_lifestyle_xp
+		
+			}
+		}
+
+### Event 3 ###
+		
+legacy_marshal.1003 = {
+	type = character_event
+	title = legacy.marshal1
+	desc = legacy.marshal1.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = pain
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = fear
+	}		
+	option = {
+		name = legacy_marshal1_name
+		custom_tooltip = legacy_marshal1_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal3_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health3_modifier years = 3 }
+		add_martial_lifestyle_xp = medium_lifestyle_xp
+		
+			}
+		}		
+
+### Event 4 ###
+		
+legacy_marshal.1004 = {
+	type = character_event
+	title = legacy.marshal1
+	desc = legacy.marshal1.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = pain
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = fear
+	}
+	option = {
+		name = legacy_marshal1_name
+		custom_tooltip = legacy_marshal1_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal4_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health4_modifier years = 3 }
+		add_martial_lifestyle_xp = medium_lifestyle_xp
+		
+			}
+		}
+
+### Event 5 ###
+		
+legacy_marshal.1005 = {
+	type = character_event
+	title = legacy.marshal1
+	desc = legacy.marshal1.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = pain
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = fear
+	}	
+	option = {
+		name = legacy_marshal1_name
+		custom_tooltip = legacy_marshal1_tooltip
+		
+		add_character_modifier = { modifier = legacy_marshal5_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health5_modifier years = 3 }
+		add_martial_lifestyle_xp = major_lifestyle_xp
+		
+			}
+		}		
+
+
+### Event 6 ###
+		
+legacy_marshal.1006 = {
+	type = character_event
+	title = legacy.marshal2
+	desc = legacy.marshal2.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}	
+	option = {
+		name = legacy_marshal2_name
+		custom_tooltip = legacy_marshal2_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal6_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health6_modifier years = 3 }
+		add_martial_lifestyle_xp = major_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 7 ###
+		
+legacy_marshal.1007 = {
+	type = character_event
+	title = legacy.marshal2
+	desc = legacy.marshal2.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}		
+	option = {
+		name = legacy_marshal2_name
+		custom_tooltip = legacy_marshal2_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal7_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health7_modifier years = 3 }
+		add_martial_lifestyle_xp = massive_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 8 ###
+		
+legacy_marshal.1008 = {
+	type = character_event
+	title = legacy.marshal2
+	desc = legacy.marshal2.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}		
+	option = {
+		name = legacy_marshal2_name
+		custom_tooltip = legacy_marshal2_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal8_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health8_modifier years = 3 }
+		add_martial_lifestyle_xp = massive_lifestyle_xp
+		
+			}
+		}	
+		
+
+### Event 9 ###
+		
+legacy_marshal.1009 = {
+	type = character_event
+	title = legacy.marshal2
+	desc = legacy.marshal2.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}		
+	option = {
+		name = legacy_marshal2_name
+		custom_tooltip = legacy_marshal2_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal9_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health9_modifier years = 3 }
+		add_martial_lifestyle_xp = monumental_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 10 ###
+		
+legacy_marshal.1010 = {
+	type = character_event
+	title = legacy.marshal2
+	desc = legacy.marshal2.desc
+	theme = camp
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = marshal
+	}		
+	option = {
+		name = legacy_marshal2_name
+		custom_tooltip = legacy_marshal2_tooltip
+
+		add_character_modifier = { modifier = legacy_marshal10_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_health10_modifier years = 3 }
+		add_martial_lifestyle_xp = monumental_lifestyle_xp
+		
+			}
+		}	

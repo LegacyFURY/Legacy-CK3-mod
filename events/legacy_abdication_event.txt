@@ -1,0 +1,28 @@
+﻿namespace = legacy_abdication
+
+legacy_abdication.1000 = {
+	type = character_event
+	title = legacy.abdication0
+	desc = legacy.abdication0.desc
+	theme = realm
+	
+	right_portrait = {
+		character = root		
+		animation = worry
+	}
+	
+	option = {
+		name = legacy_abdication1_name
+		custom_tooltip = legacy_abdication1_tooltip
+		add_stress = massive_stress_gain
+		add_prestige = 500
+	}
+	
+	option = {
+		name = legacy_abdication2_name
+		custom_tooltip = legacy_abdication2_tooltip
+		
+		depose = yes
+		legacy_dishonor_effect = yes
+	}
+}

@@ -1,0 +1,468 @@
+﻿namespace = legacy_witch
+
+#### Starting event ####
+
+legacy_witch.1000 = {
+	type = character_event
+	title = legacy.witch0
+	desc = legacy.witch0.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = paranoia
+	}
+	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = anger
+	}
+		
+	option = {
+		name = legacy_witch_1_name
+		custom_tooltip = legacy_witch_1_tooltip
+
+		trigger_event = {
+					on_action = legacy.witch.rnd
+				}
+			}
+			
+	option = {
+		name = legacy_witch_2_name
+		custom_tooltip = legacy_witch_2_tooltip
+			}		
+			
+		}
+		
+#### Witch 1 event ####
+
+legacy_witch.1001 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch4_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch4_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch11_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch11_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch21_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch21_effect = yes			
+		}
+	}
+	
+#### Witch 2 event ####
+
+legacy_witch.1002 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch9_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch9_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch13_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch13_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch19_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch19_effect = yes			
+		}
+	}
+	
+#### Witch 3 event ####
+
+legacy_witch.1003 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch12_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch12_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch16_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch16_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch8_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch8_effect = yes			
+		}
+	}
+	
+#### Witch 4 event ####
+
+legacy_witch.1004 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch7_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch7_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch14_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch14_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch2_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch2_effect = yes			
+		}
+	}
+	
+#### Witch 5 event ####
+
+legacy_witch.1005 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch20_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch20_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch6_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch6_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch1_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch1_effect = yes			
+		}
+	}
+	
+#### Witch 6 event ####
+
+legacy_witch.1006 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch3_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch3_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch5_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch5_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch17_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch17_effect = yes			
+		}
+	}
+	
+#### Witch 7 event ####
+
+legacy_witch.1007 = {
+	type = character_event
+	title = legacy.witch1
+	desc = legacy.witch1.desc
+	theme = witch_hut
+	left_portrait = {
+		character = root
+		animation = worry
+	}	
+	right_portrait = {
+		character = scope:legacy_witch_char
+		animation = personality_dishonorable
+	}
+	
+	option = {
+		name = legacy_witch15_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch15_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch10_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch10_effect = yes			
+		}
+
+	option = {
+		name = legacy_witch18_name
+		custom_tooltip = legacy_witch1_tooltip
+
+		hidden_effect = {
+        scope:legacy_witch_char = {
+            death = {
+                death_reason = death_vanished
+            }
+        }
+    }
+	
+		witch18_effect = yes			
+		}
+	}

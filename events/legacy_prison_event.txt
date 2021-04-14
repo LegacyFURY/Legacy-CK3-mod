@@ -1,0 +1,1082 @@
+﻿namespace = legacy_prison
+
+############################# Event 1
+
+legacy_prison.1001 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_4
+		custom_tooltip = legacy_prisoner4
+		hidden_effect = {
+		prisoner04_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 2
+
+
+legacy_prison.1002 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 3
+
+legacy_prison.1003 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_5
+		custom_tooltip = legacy_prisoner5
+		hidden_effect = {
+		prisoner05_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 4
+
+legacy_prison.1004 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 5
+
+legacy_prison.1005 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 6
+
+legacy_prison.1006 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_5
+		custom_tooltip = legacy_prisoner5
+		hidden_effect = {
+		prisoner05_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 7
+
+legacy_prison.1007 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_4
+		custom_tooltip = legacy_prisoner4
+		hidden_effect = {
+		prisoner04_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 8
+
+legacy_prison.1008 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_4
+		custom_tooltip = legacy_prisoner4
+		hidden_effect = {
+		prisoner04_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 9
+
+legacy_prison.1009 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_5
+		custom_tooltip = legacy_prisoner5
+		hidden_effect = {
+		prisoner05_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 10
+
+legacy_prison.1010 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 11
+
+legacy_prison.1011 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 12
+
+legacy_prison.1012 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 13
+
+legacy_prison.1013 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_5
+		custom_tooltip = legacy_prisoner5
+		hidden_effect = {
+		prisoner05_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_7
+		custom_tooltip = legacy_prisoner7
+		hidden_effect = {
+		prisoner07_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 14
+
+legacy_prison.1014 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_8
+		custom_tooltip = legacy_prisoner8
+		hidden_effect = {
+		prisoner08_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 15
+
+legacy_prison.1015 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_9
+		custom_tooltip = legacy_prisoner9
+		hidden_effect = {
+		prisoner09_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 16
+
+legacy_prison.1016 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_4
+		custom_tooltip = legacy_prisoner4
+		hidden_effect = {
+		prisoner04_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_10
+		custom_tooltip = legacy_prisoner10
+		hidden_effect = {
+		prisoner10_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+
+############################# Event 17
+
+legacy_prison.1017 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_11
+		custom_tooltip = legacy_prisoner11
+		hidden_effect = {
+		prisoner11_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 18
+
+legacy_prison.1018 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_0
+		custom_tooltip = legacy_prisoner0
+		hidden_effect = {
+		prisoner00_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_12
+		custom_tooltip = legacy_prisoner12
+		hidden_effect = {
+		prisoner12_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 19
+
+legacy_prison.1019 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_1
+		custom_tooltip = legacy_prisoner1
+		hidden_effect = {
+		prisoner01_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_2
+		custom_tooltip = legacy_prisoner2
+		hidden_effect = {
+		prisoner02_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_13
+		custom_tooltip = legacy_prisoner13
+		hidden_effect = {
+		prisoner13_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 20
+
+legacy_prison.1020 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_3
+		custom_tooltip = legacy_prisoner3
+		hidden_effect = {
+		prisoner03_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_4
+		custom_tooltip = legacy_prisoner4
+		hidden_effect = {
+		prisoner04_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_14
+		custom_tooltip = legacy_prisoner14
+		hidden_effect = {
+		prisoner14_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}
+
+############################# Event 21
+
+legacy_prison.1021 = {
+	type = character_event
+	title = legacy.prisoner
+	desc = legacy.prisoner.desc
+	theme = prisoner
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	
+	weight_multiplier = { base = 1 }
+	
+	option = {
+		name = prisoner_5
+		custom_tooltip = legacy_prisoner5
+		hidden_effect = {
+		prisoner05_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_6
+		custom_tooltip = legacy_prisoner6
+		hidden_effect = {
+		prisoner06_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}
+
+	option = {
+		name = prisoner_15
+		custom_tooltip = legacy_prisoner15
+		hidden_effect = {
+		prisoner15_effect = yes	
+		new_prisoner_effect = {
+			TARGET = scope:new_prisoner
+			IMPRISONER = root
+								}
+						}
+			}				
+}

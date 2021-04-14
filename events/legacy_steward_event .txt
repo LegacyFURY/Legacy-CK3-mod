@@ -1,0 +1,284 @@
+﻿namespace = legacy_steward
+
+### Starting event ###
+
+legacy_steward.1000 = {
+	type = character_event
+	title = legacy.steward0
+	desc = legacy.steward0.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+
+	option = {
+		name = legacy_steward0_name
+		custom_tooltip = legacy_steward0_tooltip
+
+		trigger_event = {
+					on_action = legacy.steward.rnd
+				}
+			}
+		}
+
+
+### Event 1 ###
+
+legacy_steward.1001 = {
+	type = character_event
+	title = legacy.steward1
+	desc = legacy.steward1.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = disbelief
+	}
+	option = {
+		name = legacy_steward1_name
+		custom_tooltip = legacy_steward1_tooltip
+
+		add_character_modifier = { modifier = legacy_steward1_modifier years = 3 }
+		add_stewardship_lifestyle_xp = miniscule_lifestyle_xp
+		remove_short_term_gold = medium_gold_value
+			}
+		}
+
+
+### Event 2 ###
+
+legacy_steward.1002 = {
+	type = character_event
+	title = legacy.steward1
+	desc = legacy.steward1.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = disbelief
+	}
+	option = {
+		name = legacy_steward1_name
+		custom_tooltip = legacy_steward1_tooltip
+
+		add_character_modifier = { modifier = legacy_steward2_modifier years = 3 }
+		add_stewardship_lifestyle_xp = minor_lifestyle_xp
+		remove_short_term_gold = minor_gold_value
+			}
+		}
+
+### Event 3 ###
+
+legacy_steward.1003 = {
+	type = character_event
+	title = legacy.steward1
+	desc = legacy.steward1.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = disbelief
+	}
+	option = {
+		name = legacy_steward1_name
+		custom_tooltip = legacy_steward1_tooltip
+
+		add_character_modifier = { modifier = legacy_steward3_modifier years = 3 }
+		add_stewardship_lifestyle_xp = medium_lifestyle_xp
+		remove_short_term_gold = minor_gold_value
+			}
+		}
+
+### Event 4 ###
+
+legacy_steward.1004 = {
+	type = character_event
+	title = legacy.steward1
+	desc = legacy.steward1.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = disbelief
+	}
+	option = {
+		name = legacy_steward1_name
+		custom_tooltip = legacy_steward1_tooltip
+
+		add_character_modifier = { modifier = legacy_steward4_modifier years = 3 }
+		add_stewardship_lifestyle_xp = medium_lifestyle_xp
+		remove_short_term_gold = tiny_gold_value
+			}
+		}
+
+### Event 5 ###
+
+legacy_steward.1005 = {
+	type = character_event
+	title = legacy.steward1
+	desc = legacy.steward1.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = disbelief
+	}
+	option = {
+		name = legacy_steward1_name
+		custom_tooltip = legacy_steward1_tooltip
+
+		add_character_modifier = { modifier = legacy_steward5_modifier years = 3 }
+		add_stewardship_lifestyle_xp = major_lifestyle_xp
+		remove_short_term_gold = tiny_gold_value
+			}
+		}
+
+
+### Event 6 ###
+
+legacy_steward.1006 = {
+	type = character_event
+	title = legacy.steward2
+	desc = legacy.steward2.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+	option = {
+		name = legacy_steward2_name
+		custom_tooltip = legacy_steward2_tooltip
+
+		add_character_modifier = { modifier = legacy_steward6_modifier years = 3 }
+		add_stewardship_lifestyle_xp = major_lifestyle_xp
+		add_gold = tiny_gold_value
+			}
+		}
+
+
+### Event 7 ###
+
+legacy_steward.1007 = {
+	type = character_event
+	title = legacy.steward2
+	desc = legacy.steward2.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+	option = {
+		name = legacy_steward2_name
+		custom_tooltip = legacy_steward2_tooltip
+
+		add_character_modifier = { modifier = legacy_steward7_modifier years = 3 }
+		add_stewardship_lifestyle_xp = massive_lifestyle_xp
+		add_gold = minor_gold_value
+			}
+		}
+
+
+### Event 8 ###
+
+legacy_steward.1008 = {
+	type = character_event
+	title = legacy.steward2
+	desc = legacy.steward2.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+	option = {
+		name = legacy_steward2_name
+		custom_tooltip = legacy_steward2_tooltip
+
+		add_character_modifier = { modifier = legacy_steward8_modifier years = 3 }
+		add_stewardship_lifestyle_xp = massive_lifestyle_xp
+		add_gold = medium_gold_value
+			}
+		}
+
+
+### Event 9 ###
+
+legacy_steward.1009 = {
+	type = character_event
+	title = legacy.steward2
+	desc = legacy.steward2.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+	option = {
+		name = legacy_steward2_name
+		custom_tooltip = legacy_steward2_tooltip
+
+		add_character_modifier = { modifier = legacy_steward9_modifier years = 3 }
+		add_stewardship_lifestyle_xp = monumental_lifestyle_xp
+		add_gold = major_gold_value
+			}
+		}
+
+
+### Event 10 ###
+
+legacy_steward.1010 = {
+	type = character_event
+	title = legacy.steward2
+	desc = legacy.steward2.desc
+	theme = throne
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	right_portrait = {
+		character = cp:councillor_steward
+		animation = steward
+	}
+	option = {
+		name = legacy_steward2_name
+		custom_tooltip = legacy_steward2_tooltip
+
+		add_character_modifier = { modifier = legacy_steward10_modifier years = 3 }
+		add_stewardship_lifestyle_xp = monumental_lifestyle_xp
+		add_gold = massive_gold_value
+			}
+		}

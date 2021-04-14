@@ -1,0 +1,285 @@
+﻿namespace = legacy_spouse
+
+### Starting event ###
+
+legacy_spouse.1000 = {
+	type = character_event
+	title = legacy.spouse0
+	desc = legacy.spouse0.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = flirtation
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}
+		
+	option = {
+		name = legacy_spouse0_name
+		custom_tooltip = legacy_spouse0_tooltip
+		
+		trigger_event = {
+					on_action = legacy.spouse.rnd
+				}	
+			}
+		}
+
+
+### Event 1 ###
+		
+legacy_spouse.1001 = {
+	type = character_event
+	title = legacy.spouse1
+	desc = legacy.spouse1.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = disapproval
+	}
+	option = {
+		name = legacy_spouse1_name
+		custom_tooltip = legacy_spouse1_tooltip
+		
+		add_character_modifier = { modifier = legacy_spouse1_modifier years = 3 }
+		add_legacy_lifestyle_xp = miniscule_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = medium_dynasty_prestige_loss }
+			}
+		}
+		
+
+### Event 2 ###
+		
+legacy_spouse.1002 = {
+	type = character_event
+	title = legacy.spouse1
+	desc = legacy.spouse1.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = disapproval
+	}		
+	option = {
+		name = legacy_spouse1_name
+		custom_tooltip = legacy_spouse1_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse2_modifier years = 3 }
+		add_legacy_lifestyle_xp = minor_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = minor_dynasty_prestige_loss }
+			}
+		}
+
+### Event 3 ###
+		
+legacy_spouse.1003 = {
+	type = character_event
+	title = legacy.spouse1
+	desc = legacy.spouse1.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = disapproval
+	}		
+	option = {
+		name = legacy_spouse1_name
+		custom_tooltip = legacy_spouse1_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse3_modifier years = 3 }
+		add_legacy_lifestyle_xp = medium_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = minor_dynasty_prestige_loss }
+			}
+		}		
+
+### Event 4 ###
+		
+legacy_spouse.1004 = {
+	type = character_event
+	title = legacy.spouse1
+	desc = legacy.spouse1.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = disapproval
+	}		
+	option = {
+		name = legacy_spouse1_name
+		custom_tooltip = legacy_spouse1_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse4_modifier years = 3 }
+		add_legacy_lifestyle_xp = medium_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = miniscule_dynasty_prestige_loss }
+			}
+		}
+
+### Event 5 ###
+		
+legacy_spouse.1005 = {
+	type = character_event
+	title = legacy.spouse1
+	desc = legacy.spouse1.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = disapproval
+	}		
+	option = {
+		name = legacy_spouse1_name
+		custom_tooltip = legacy_spouse1_tooltip
+		
+		add_character_modifier = { modifier = legacy_spouse5_modifier years = 3 }
+		add_legacy_lifestyle_xp = major_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = miniscule_dynasty_prestige_loss }
+			}
+		}		
+
+
+### Event 6 ###
+		
+legacy_spouse.1006 = {
+	type = character_event
+	title = legacy.spouse2
+	desc = legacy.spouse2.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}		
+	option = {
+		name = legacy_spouse2_name
+		custom_tooltip = legacy_spouse2_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse6_modifier years = 3 }
+		add_legacy_lifestyle_xp = major_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = miniscule_dynasty_prestige_gain }
+			}
+		}		
+		
+
+### Event 7 ###
+		
+legacy_spouse.1007 = {
+	type = character_event
+	title = legacy.spouse2
+	desc = legacy.spouse2.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}		
+	option = {
+		name = legacy_spouse2_name
+		custom_tooltip = legacy_spouse2_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse7_modifier years = 3 }
+		add_legacy_lifestyle_xp = massive_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = minor_dynasty_prestige_gain }
+			}
+		}		
+		
+
+### Event 8 ###
+		
+legacy_spouse.1008 = {
+	type = character_event
+	title = legacy.spouse2
+	desc = legacy.spouse2.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}		
+	option = {
+		name = legacy_spouse2_name
+		custom_tooltip = legacy_spouse2_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse8_modifier years = 3 }
+		add_legacy_lifestyle_xp = massive_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = medium_dynasty_prestige_gain }
+			}
+		}	
+		
+
+### Event 9 ###
+		
+legacy_spouse.1009 = {
+	type = character_event
+	title = legacy.spouse2
+	desc = legacy.spouse2.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}		
+	option = {
+		name = legacy_spouse2_name
+		custom_tooltip = legacy_spouse2_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse9_modifier years = 3 }
+		add_legacy_lifestyle_xp = monumental_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = major_dynasty_prestige_gain }
+			}
+		}		
+		
+
+### Event 10 ###
+		
+legacy_spouse.1010 = {
+	type = character_event
+	title = legacy.spouse2
+	desc = legacy.spouse2.desc
+	theme = private_room
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_spouse
+		animation = flirtation
+	}		
+	option = {
+		name = legacy_spouse2_name
+		custom_tooltip = legacy_spouse2_tooltip
+
+		add_character_modifier = { modifier = legacy_spouse10_modifier years = 3 }
+		add_legacy_lifestyle_xp = monumental_lifestyle_xp
+		dynasty = {  add_dynasty_prestige = massive_dynasty_prestige_gain }
+			}
+		}	
+		

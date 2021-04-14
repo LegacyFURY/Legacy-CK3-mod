@@ -1,0 +1,294 @@
+﻿namespace = legacy_chancellor
+
+### Starting event ###
+
+legacy_chancellor.1000 = {
+	type = character_event
+	title = legacy.chancellor0
+	desc = legacy.chancellor0.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+		animation = personality_forgiving
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}
+		
+	option = {
+		name = legacy_chancellor0_name
+		custom_tooltip = legacy_chancellor0_tooltip
+		
+		trigger_event = {
+					on_action = legacy.chancellor.rnd
+				}	
+			}
+		}
+
+
+### Event 1 ###
+		
+legacy_chancellor.1001 = {
+	type = character_event
+	title = legacy.chancellor1
+	desc = legacy.chancellor1.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = shame
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = personality_vengeful
+	}
+	option = {
+		name = legacy_chancellor1_name
+		custom_tooltip = legacy_chancellor1_tooltip
+		
+		add_character_modifier = { modifier = legacy_chancellor1_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = miniscule_lifestyle_xp
+		add_prestige = medium_prestige_loss
+			}
+		}
+		
+
+### Event 2 ###
+		
+legacy_chancellor.1002 = {
+	type = character_event
+	title = legacy.chancellor1
+	desc = legacy.chancellor1.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = shame
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = personality_vengeful
+	}		
+	option = {
+		name = legacy_chancellor1_name
+		custom_tooltip = legacy_chancellor1_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor2_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = minor_lifestyle_xp
+		add_prestige = minor_prestige_loss
+		
+			}
+		}
+
+### Event 3 ###
+		
+legacy_chancellor.1003 = {
+	type = character_event
+	title = legacy.chancellor1
+	desc = legacy.chancellor1.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = shame
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = personality_vengeful
+	}		
+	option = {
+		name = legacy_chancellor1_name
+		custom_tooltip = legacy_chancellor1_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor3_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+		add_prestige = minor_prestige_loss
+		
+			}
+		}		
+
+### Event 4 ###
+		
+legacy_chancellor.1004 = {
+	type = character_event
+	title = legacy.chancellor1
+	desc = legacy.chancellor1.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = shame
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = personality_vengeful
+	}		
+	option = {
+		name = legacy_chancellor1_name
+		custom_tooltip = legacy_chancellor1_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor4_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+		add_prestige = miniscule_prestige_loss
+		
+			}
+		}
+
+### Event 5 ###
+		
+legacy_chancellor.1005 = {
+	type = character_event
+	title = legacy.chancellor1
+	desc = legacy.chancellor1.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = shame
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = personality_vengeful
+	}	
+	option = {
+		name = legacy_chancellor1_name
+		custom_tooltip = legacy_chancellor1_tooltip
+		
+		add_character_modifier = { modifier = legacy_chancellor5_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = major_lifestyle_xp
+		add_prestige = miniscule_prestige_loss
+		
+			}
+		}		
+
+
+### Event 6 ###
+		
+legacy_chancellor.1006 = {
+	type = character_event
+	title = legacy.chancellor2
+	desc = legacy.chancellor2.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = personality_content
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}	
+	option = {
+		name = legacy_chancellor2_name
+		custom_tooltip = legacy_chancellor2_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor6_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = major_lifestyle_xp
+		add_prestige = miniscule_prestige_gain
+		
+			}
+		}		
+		
+
+### Event 7 ###
+		
+legacy_chancellor.1007 = {
+	type = character_event
+	title = legacy.chancellor2
+	desc = legacy.chancellor2.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = personality_content
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}		
+	option = {
+		name = legacy_chancellor2_name
+		custom_tooltip = legacy_chancellor2_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor7_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = massive_lifestyle_xp
+		add_prestige = minor_prestige_gain
+		
+			}
+		}		
+		
+
+### Event 8 ###
+		
+legacy_chancellor.1008 = {
+	type = character_event
+	title = legacy.chancellor2
+	desc = legacy.chancellor2.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = personality_content
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}		
+	option = {
+		name = legacy_chancellor2_name
+		custom_tooltip = legacy_chancellor2_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor8_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = massive_lifestyle_xp
+		add_prestige = medium_prestige_gain
+		
+			}
+		}	
+		
+
+### Event 9 ###
+		
+legacy_chancellor.1009 = {
+	type = character_event
+	title = legacy.chancellor2
+	desc = legacy.chancellor2.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = personality_content
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}			
+	option = {
+		name = legacy_chancellor2_name
+		custom_tooltip = legacy_chancellor2_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor9_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = monumental_lifestyle_xp
+		add_prestige = major_prestige_gain
+		
+			}
+		}		
+		
+
+### Event 10 ###
+		
+legacy_chancellor.1010 = {
+	type = character_event
+	title = legacy.chancellor2
+	desc = legacy.chancellor2.desc
+	theme = noblevisite
+	left_portrait = {
+		character = root
+			animation = personality_content
+	}
+	right_portrait = {
+		character = cp:councillor_chancellor
+		animation = chancellor
+	}			
+	option = {
+		name = legacy_chancellor2_name
+		custom_tooltip = legacy_chancellor2_tooltip
+
+		add_character_modifier = { modifier = legacy_chancellor10_modifier years = 3 }
+		add_diplomacy_lifestyle_xp = monumental_lifestyle_xp
+		add_prestige = massive_prestige_gain
+		
+			}
+		}	
+		

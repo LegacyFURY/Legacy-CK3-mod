@@ -1,0 +1,294 @@
+﻿namespace = legacy_spymaster
+
+### Starting event ###
+
+legacy_spymaster.1000 = {
+	type = character_event
+	title = legacy.spymaster0
+	desc = legacy.spymaster0.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_dishonorable
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}
+		
+	option = {
+		name = legacy_spymaster0_name
+		custom_tooltip = legacy_spymaster0_tooltip
+		
+		trigger_event = {
+					on_action = legacy.spymaster.rnd
+				}	
+			}
+		}
+
+
+### Event 1 ###
+		
+legacy_spymaster.1001 = {
+	type = character_event
+	title = legacy.spymaster1
+	desc = legacy.spymaster1.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = boredom
+	}
+	option = {
+		name = legacy_spymaster1_name
+		custom_tooltip = legacy_spymaster1_tooltip
+		
+		add_character_modifier = { modifier = legacy_spymaster1_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special1_modifier years = 3 }
+		add_intrigue_lifestyle_xp = miniscule_lifestyle_xp
+			}
+		}
+		
+
+### Event 2 ###
+		
+legacy_spymaster.1002 = {
+	type = character_event
+	title = legacy.spymaster1
+	desc = legacy.spymaster1.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = boredom
+	}		
+	option = {
+		name = legacy_spymaster1_name
+		custom_tooltip = legacy_spymaster1_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster2_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special2_modifier years = 3 }
+		add_intrigue_lifestyle_xp = minor_lifestyle_xp
+		
+			}
+		}
+
+### Event 3 ###
+		
+legacy_spymaster.1003 = {
+	type = character_event
+	title = legacy.spymaster1
+	desc = legacy.spymaster1.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = boredom
+	}		
+	option = {
+		name = legacy_spymaster1_name
+		custom_tooltip = legacy_spymaster1_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster3_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special3_modifier years = 3 }
+		add_intrigue_lifestyle_xp = medium_lifestyle_xp
+		
+			}
+		}		
+
+### Event 4 ###
+		
+legacy_spymaster.1004 = {
+	type = character_event
+	title = legacy.spymaster1
+	desc = legacy.spymaster1.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = boredom
+	}		
+	option = {
+		name = legacy_spymaster1_name
+		custom_tooltip = legacy_spymaster1_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster4_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special4_modifier years = 3 }
+		add_intrigue_lifestyle_xp = medium_lifestyle_xp
+		
+			}
+		}
+
+### Event 5 ###
+		
+legacy_spymaster.1005 = {
+	type = character_event
+	title = legacy.spymaster1
+	desc = legacy.spymaster1.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = personality_irrational
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = boredom
+	}		
+	option = {
+		name = legacy_spymaster1_name
+		custom_tooltip = legacy_spymaster1_tooltip
+		
+		add_character_modifier = { modifier = legacy_spymaster5_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special5_modifier years = 3 }
+		add_intrigue_lifestyle_xp = major_lifestyle_xp
+		
+			}
+		}		
+
+
+### Event 6 ###
+		
+legacy_spymaster.1006 = {
+	type = character_event
+	title = legacy.spymaster2
+	desc = legacy.spymaster2.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}		
+	option = {
+		name = legacy_spymaster2_name
+		custom_tooltip = legacy_spymaster2_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster6_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special6_modifier years = 3 }
+		add_intrigue_lifestyle_xp = major_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 7 ###
+		
+legacy_spymaster.1007 = {
+	type = character_event
+	title = legacy.spymaster2
+	desc = legacy.spymaster2.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}		
+	option = {
+		name = legacy_spymaster2_name
+		custom_tooltip = legacy_spymaster2_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster7_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special7_modifier years = 3 }
+		add_intrigue_lifestyle_xp = massive_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 8 ###
+		
+legacy_spymaster.1008 = {
+	type = character_event
+	title = legacy.spymaster2
+	desc = legacy.spymaster2.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}			
+	option = {
+		name = legacy_spymaster2_name
+		custom_tooltip = legacy_spymaster2_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster8_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special8_modifier years = 3 }
+		add_intrigue_lifestyle_xp = massive_lifestyle_xp
+		
+			}
+		}	
+		
+
+### Event 9 ###
+		
+legacy_spymaster.1009 = {
+	type = character_event
+	title = legacy.spymaster2
+	desc = legacy.spymaster2.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}			
+	option = {
+		name = legacy_spymaster2_name
+		custom_tooltip = legacy_spymaster2_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster9_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special9_modifier years = 3 }
+		add_intrigue_lifestyle_xp = monumental_lifestyle_xp
+		
+			}
+		}		
+		
+
+### Event 10 ###
+		
+legacy_spymaster.1010 = {
+	type = character_event
+	title = legacy.spymaster2
+	desc = legacy.spymaster2.desc
+	theme = plotroom
+	left_portrait = {
+		character = root
+		animation = scheme
+	}
+	right_portrait = {
+		character = cp:councillor_spymaster
+		animation = spymaster
+	}			
+	option = {
+		name = legacy_spymaster2_name
+		custom_tooltip = legacy_spymaster2_tooltip
+
+		add_character_modifier = { modifier = legacy_spymaster10_modifier years = 3 }
+		add_character_modifier = { modifier = legacy_special10_modifier years = 3 }
+		add_intrigue_lifestyle_xp = monumental_lifestyle_xp
+		
+			}
+		}	
+		

@@ -1,0 +1,34 @@
+﻿namespace = legacy_treat
+
+legacy_treat.1001 = {
+	type = character_event
+	title = legacy.treat1
+	desc = legacy.treat1.desc
+	theme = prison
+	
+	left_portrait = {
+		character = scope:actor
+		animation = personality_content
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+		animation = pain
+	}
+	
+	option = {
+		name = legacy_treat1_name
+		custom_tooltip = legacy_treat1_tooltip
+		
+	scope:recipient = {
+			add_opinion = {
+			target = scope:actor
+			modifier = legacy_treated_opinion
+							}
+			remove_character_modifier = recently_tortured
+			add_character_modifier = { modifier = legacy_treated_wounds_modifier years = 5 }
+			add_stress = major_stress_loss
+									
+		}		
+	}
+}
