@@ -1,0 +1,44 @@
+﻿@smErmine = 0.27
+1500100 = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_manul.dds"
+		color1 = "yellow"
+		color2 = "purple"
+	}
+
+}
+
+1500101 = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_fevral.dds"
+		color1 = "grey"
+		color2 = "green"
+	}
+
+}
+
+c_geneva = {
+	pattern = "pattern_vertical_split_01.dds"	
+	color1 = "yellow"
+	color2 = "red"	
+	
+	colored_emblem = {
+		texture = "ce_ge_eagle.dds"
+		color1 = "black"
+		color2 = "red"
+		}
+	
+	colored_emblem = {
+		texture = "ce_ge_key.dds"
+		color1 = "yellow"
+		}	
+				
+	
+	
+}

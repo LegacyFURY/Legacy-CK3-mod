@@ -1,0 +1,1558 @@
+﻿#### Witch potion 1 ####
+
+witch1_effect = {
+
+
+random_list = {
+
+		10 = {
+		add_trait = beauty_bad_3
+		hidden_effect = {
+		remove_trait = beauty_bad_2
+		remove_trait = beauty_bad_1
+		remove_trait = beauty_good_1
+		remove_trait = beauty_good_2
+		remove_trait = beauty_good_3
+		}
+		}
+
+		15 = {
+		add_trait = beauty_bad_2
+		hidden_effect = {
+		remove_trait = beauty_bad_3
+		remove_trait = beauty_bad_1
+		remove_trait = beauty_good_1
+		remove_trait = beauty_good_2
+		remove_trait = beauty_good_3
+		}
+		}		
+
+		25 = {
+		add_trait = beauty_bad_1
+		hidden_effect = {
+		remove_trait = beauty_bad_2
+		remove_trait = beauty_bad_3
+		remove_trait = beauty_good_1
+		remove_trait = beauty_good_2
+		remove_trait = beauty_good_3
+		}
+		}
+
+		25 = {
+		add_trait = beauty_good_1
+		hidden_effect = {
+		remove_trait = beauty_bad_3
+		remove_trait = beauty_bad_2
+		remove_trait = beauty_bad_1
+		remove_trait = beauty_good_2
+		remove_trait = beauty_good_3
+		}
+		}
+
+		15 = {
+		add_trait = beauty_good_2
+		hidden_effect = {
+		remove_trait = beauty_bad_3
+		remove_trait = beauty_bad_2
+		remove_trait = beauty_bad_1
+		remove_trait = beauty_good_1
+		remove_trait = beauty_good_3	
+		}
+		}
+
+		10 = {
+		add_trait = beauty_good_3
+		hidden_effect = {
+		remove_trait = beauty_bad_3
+		remove_trait = beauty_bad_2
+		remove_trait = beauty_bad_1
+		remove_trait = beauty_good_1
+		remove_trait = beauty_good_2	
+		}
+		}
+		
+		}
+	}
+
+#### Witch potion 2 ####
+
+witch2_effect = {
+
+
+random_list = {
+
+		10 = {
+		add_trait = intellect_bad_3
+		hidden_effect = {
+		remove_trait = intellect_bad_2
+		remove_trait = intellect_bad_1
+		remove_trait = intellect_good_1
+		remove_trait = intellect_good_2
+		remove_trait = intellect_good_3
+		}
+		}
+
+		15 = {
+		add_trait = intellect_bad_2
+		hidden_effect = {
+		remove_trait = intellect_bad_3
+		remove_trait = intellect_bad_1
+		remove_trait = intellect_good_1
+		remove_trait = intellect_good_2
+		remove_trait = intellect_good_3
+		}
+		}		
+
+		25 = {
+		add_trait = intellect_bad_1
+		hidden_effect = {
+		remove_trait = intellect_bad_2
+		remove_trait = intellect_bad_3
+		remove_trait = intellect_good_1
+		remove_trait = intellect_good_2
+		remove_trait = intellect_good_3
+		}
+		}
+
+		25 = {
+		add_trait = intellect_good_1
+		hidden_effect = {
+		remove_trait = intellect_bad_3
+		remove_trait = intellect_bad_2
+		remove_trait = intellect_bad_1
+		remove_trait = intellect_good_2
+		remove_trait = intellect_good_3
+		}
+		}
+
+		15 = {
+		add_trait = intellect_good_2
+		hidden_effect = {
+		remove_trait = intellect_bad_3
+		remove_trait = intellect_bad_2
+		remove_trait = intellect_bad_1
+		remove_trait = intellect_good_1
+		remove_trait = intellect_good_3	
+		}
+		}
+
+		10 = {
+		add_trait = intellect_good_3
+		hidden_effect = {
+		remove_trait = intellect_bad_3
+		remove_trait = intellect_bad_2
+		remove_trait = intellect_bad_1
+		remove_trait = intellect_good_1
+		remove_trait = intellect_good_2	
+		}
+		}
+		
+		}
+	}	
+	
+#### Witch potion 3 ####
+
+witch3_effect = {
+
+
+random_list = {
+
+		10 = {
+		add_trait = physique_bad_3
+		hidden_effect = {
+		remove_trait = physique_bad_2
+		remove_trait = physique_bad_1
+		remove_trait = physique_good_1
+		remove_trait = physique_good_2
+		remove_trait = physique_good_3
+		}
+		}
+
+		15 = {
+		add_trait = physique_bad_2
+		hidden_effect = {
+		remove_trait = physique_bad_3
+		remove_trait = physique_bad_1
+		remove_trait = physique_good_1
+		remove_trait = physique_good_2
+		remove_trait = physique_good_3
+		}
+		}		
+
+		25 = {
+		add_trait = physique_bad_1
+		hidden_effect = {
+		remove_trait = physique_bad_2
+		remove_trait = physique_bad_3
+		remove_trait = physique_good_1
+		remove_trait = physique_good_2
+		remove_trait = physique_good_3
+		}
+		}
+
+		25 = {
+		add_trait = physique_good_1
+		hidden_effect = {
+		remove_trait = physique_bad_3
+		remove_trait = physique_bad_2
+		remove_trait = physique_bad_1
+		remove_trait = physique_good_2
+		remove_trait = physique_good_3
+		}
+		}
+
+		15 = {
+		add_trait = physique_good_2
+		hidden_effect = {
+		remove_trait = physique_bad_3
+		remove_trait = physique_bad_2
+		remove_trait = physique_bad_1
+		remove_trait = physique_good_1
+		remove_trait = physique_good_3	
+		}
+		}
+
+		10 = {
+		add_trait = physique_good_3
+		hidden_effect = {
+		remove_trait = physique_bad_3
+		remove_trait = physique_bad_2
+		remove_trait = physique_bad_1
+		remove_trait = physique_good_1
+		remove_trait = physique_good_2	
+		}
+		}
+		
+		}
+	}	
+	
+#### Witch potion 4 ####	
+	
+witch4_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = inbred
+		hidden_effect = {
+		remove_trait = pure_blooded
+		}
+		}
+	
+		50 = {
+		
+		add_trait = pure_blooded
+		hidden_effect = {
+		remove_trait = inbred
+		}		
+		}			
+	}
+}
+	
+#### Witch potion 5 ####	
+	
+witch5_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = giant
+		hidden_effect = {
+		remove_trait = dwarf
+		}
+		}
+	
+		50 = {
+		
+		add_trait = dwarf
+		hidden_effect = {
+		remove_trait = giant
+		}		
+		}			
+	}
+}
+
+#### Witch potion 6 ####	
+	
+witch6_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = weak
+		hidden_effect = {
+		remove_trait = strong
+		}
+		}
+	
+		50 = {
+		
+		add_trait = strong
+		hidden_effect = {
+		remove_trait = weak
+		}		
+		}			
+	}
+}		
+	
+	#### Witch potion 7 ####	
+	
+witch7_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = dull
+		hidden_effect = {
+		remove_trait = shrewd
+		}
+		}
+	
+		50 = {
+		
+		add_trait = shrewd
+		hidden_effect = {
+		remove_trait = dull
+		}		
+		}			
+	}
+}	
+	
+	#### Witch potion 8 ####	
+	
+witch8_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = disfigured
+		hidden_effect = {
+		remove_trait = scarred
+		}
+		}
+	
+		50 = {
+		
+		add_trait = scarred
+		hidden_effect = {
+		remove_trait = disfigured
+		}		
+		}			
+	}
+}	
+		
+	#### Witch potion 9 ####	
+	
+witch9_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = albino
+		hidden_effect = {
+		remove_trait = reincarnation
+		}
+		}
+	
+		50 = {
+		
+		add_trait = reincarnation
+		hidden_effect = {
+		remove_trait = albino
+		}		
+		}			
+	}
+}	
+		
+	#### Witch potion 10 ####	
+	
+witch10_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = fecund
+		hidden_effect = {
+		remove_trait = infertile
+		}
+		}
+	
+		50 = {
+		
+		add_trait = infertile
+		hidden_effect = {
+		remove_trait = fecund
+		}		
+		}			
+	}
+}		
+	
+#### Witch potion 11 ####	
+	
+witch11_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = cannibal
+		hidden_effect = {
+		remove_trait = reveler_1
+		remove_trait = reveler_2
+		remove_trait = reveler_3
+		}
+		}
+	
+		25 = {
+		add_trait = reveler_1
+		hidden_effect = {
+		remove_trait = cannibal
+		remove_trait = reveler_2
+		remove_trait = reveler_3
+		}		
+		}
+
+		15 = {
+		add_trait = reveler_2
+		hidden_effect = {
+		remove_trait = cannibal
+		remove_trait = reveler_1
+		remove_trait = reveler_3
+		}		
+		}
+
+		10 = {
+		add_trait = reveler_3
+		hidden_effect = {
+		remove_trait = cannibal
+		remove_trait = reveler_1
+		remove_trait = reveler_2
+		}		
+		}
+		
+	}
+}
+	
+#### Witch potion 12 ####	
+	
+witch12_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = spindly
+		hidden_effect = {
+		remove_trait = blademaster_1
+		remove_trait = blademaster_2
+		remove_trait = blademaster_3
+		}
+		}
+	
+		25 = {
+		add_trait = blademaster_1
+		hidden_effect = {
+		remove_trait = spindly
+		remove_trait = blademaster_2
+		remove_trait = blademaster_3
+		}		
+		}
+
+		15 = {
+		add_trait = blademaster_2
+		hidden_effect = {
+		remove_trait = spindly
+		remove_trait = blademaster_1
+		remove_trait = blademaster_3
+		}		
+		}
+
+		10 = {
+		add_trait = blademaster_3
+		hidden_effect = {
+		remove_trait = spindly
+		remove_trait = blademaster_1
+		remove_trait = blademaster_2
+		}		
+		}
+		
+	}
+}	
+	
+#### Witch potion 13 ####	
+	
+witch13_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = lunatic_1
+		hidden_effect = {
+		remove_trait = mystic_1
+		remove_trait = mystic_2
+		remove_trait = mystic_3
+		}
+		}
+	
+		25 = {
+		add_trait = mystic_1
+		hidden_effect = {
+		remove_trait = lunatic_1
+		remove_trait = mystic_2
+		remove_trait = mystic_3
+		}		
+		}
+
+		15 = {
+		add_trait = mystic_2
+		hidden_effect = {
+		remove_trait = lunatic_1
+		remove_trait = mystic_1
+		remove_trait = mystic_3
+		}		
+		}
+
+		10 = {
+		add_trait = mystic_3
+		hidden_effect = {
+		remove_trait = lunatic_1
+		remove_trait = mystic_1
+		remove_trait = mystic_2
+		}		
+		}
+		
+	}
+}		
+	
+#### Witch potion 14 ####	
+	
+witch14_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = possessed_1
+		hidden_effect = {
+		remove_trait = physician_1
+		remove_trait = physician_2
+		remove_trait = physician_3
+		}
+		}
+	
+		25 = {
+		add_trait = physician_1
+		hidden_effect = {
+		remove_trait = possessed_1
+		remove_trait = physician_2
+		remove_trait = physician_3
+		}		
+		}
+
+		15 = {
+		add_trait = physician_2
+		hidden_effect = {
+		remove_trait = possessed_1
+		remove_trait = physician_1
+		remove_trait = physician_3
+		}		
+		}
+
+		10 = {
+		add_trait = physician_3
+		hidden_effect = {
+		remove_trait = possessed_1
+		remove_trait = physician_1
+		remove_trait = physician_2
+		}		
+		}
+		
+	}
+}		
+	
+#### Witch potion 15 ####	
+	
+witch15_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = wheezing
+		hidden_effect = {
+		remove_trait = hunter_1
+		remove_trait = hunter_2
+		remove_trait = hunter_3
+		}
+		}
+	
+		25 = {
+		add_trait = hunter_1
+		hidden_effect = {
+		remove_trait = wheezing
+		remove_trait = hunter_2
+		remove_trait = hunter_3
+		}		
+		}
+
+		15 = {
+		add_trait = hunter_2
+		hidden_effect = {
+		remove_trait = wheezing
+		remove_trait = hunter_1
+		remove_trait = hunter_3
+		}		
+		}
+
+		10 = {
+		add_trait = hunter_3
+		hidden_effect = {
+		remove_trait = wheezing
+		remove_trait = hunter_1
+		remove_trait = hunter_2
+		}		
+		}
+		
+	}
+}		
+	
+#### Witch potion 16 ####	
+	
+witch16_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = lisping
+		}
+	
+		20 = {
+		add_trait = education_diplomacy_1
+		hidden_effect = {
+		remove_trait = lisping
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		
+		}		
+		}
+
+		15 = {
+		add_trait = education_diplomacy_2
+		hidden_effect = {
+		remove_trait = lisping
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_diplomacy_3
+		hidden_effect = {
+		remove_trait = lisping
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+
+		5 = {
+		add_trait = education_diplomacy_4
+		hidden_effect = {
+		remove_trait = lisping
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}		
+	}
+}		
+	
+#### Witch potion 17 ####	
+	
+witch17_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = scaly
+		}
+	
+		20 = {
+		add_trait = education_stewardship_1
+		hidden_effect = {
+		remove_trait = scaly
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		}		
+		}
+
+		15 = {
+		add_trait = education_stewardship_2
+		hidden_effect = {
+		remove_trait = scaly
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_stewardship_3
+		hidden_effect = {
+		remove_trait = scaly
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		}
+		}
+
+		5 = {
+		add_trait = education_stewardship_4
+		hidden_effect = {
+		remove_trait = scaly
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		}		
+		}		
+	}
+}		
+	
+#### Witch potion 18 ####	
+	
+witch18_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = depressed_1
+		}
+	
+		20 = {
+		add_trait = education_intrigue_1
+		hidden_effect = {
+		remove_trait = depressed_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		15 = {
+		add_trait = education_intrigue_2
+		hidden_effect = {
+		remove_trait = depressed_1
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_intrigue_3
+		hidden_effect = {
+		remove_trait = depressed_1
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+
+		5 = {
+		add_trait = education_intrigue_4
+		hidden_effect = {
+		remove_trait = depressed_1
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}		
+	}
+}		
+
+#### Witch potion 19 ####	
+	
+witch19_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = blind
+		}
+	
+		20 = {
+		add_trait = education_learning_1
+		hidden_effect = {
+		remove_trait = blind
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		15 = {
+		add_trait = education_learning_2
+		hidden_effect = {
+		remove_trait = blind
+		remove_trait = education_learning_1
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_learning_3
+		hidden_effect = {
+		remove_trait = blind
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+
+		5 = {
+		add_trait = education_learning_4
+		hidden_effect = {
+		remove_trait = blind
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}		
+	}
+}	
+	
+#### Witch potion 20 ####	
+	
+witch20_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = clubfooted
+		}
+	
+		20 = {
+		add_trait = education_martial_prowess_1
+		hidden_effect = {
+		remove_trait = clubfooted
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		15 = {
+		add_trait = education_martial_prowess_2
+		hidden_effect = {
+		remove_trait = clubfooted
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_martial_prowess_3
+		hidden_effect = {
+		remove_trait = clubfooted
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+
+		5 = {
+		add_trait = education_martial_prowess_4
+		hidden_effect = {
+		remove_trait = clubfooted
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+		
+	}
+}	
+	
+#### Witch potion 21 ####	
+	
+witch21_effect = {
+
+random_list = {
+
+		50 = {
+		add_trait = one_legged
+		}
+	
+		20 = {
+		add_trait = education_martial_1
+		hidden_effect = {
+		remove_trait = one_legged
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		15 = {
+		add_trait = education_martial_2
+		hidden_effect = {
+		remove_trait = one_legged
+		remove_trait = education_martial_1
+		remove_trait = education_martial_3
+		remove_trait = education_martial_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}		
+		}
+
+		10 = {
+		add_trait = education_martial_3
+		hidden_effect = {
+		remove_trait = one_legged
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_4
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+
+		5 = {
+		add_trait = education_martial_4
+		hidden_effect = {
+		remove_trait = one_legged
+		remove_trait = education_martial_1
+		remove_trait = education_martial_2
+		remove_trait = education_martial_3
+		remove_trait = education_diplomacy_1
+		remove_trait = education_diplomacy_2
+		remove_trait = education_diplomacy_3
+		remove_trait = education_diplomacy_4
+		remove_trait = education_martial_prowess_1
+		remove_trait = education_martial_prowess_2
+		remove_trait = education_martial_prowess_3
+		remove_trait = education_martial_prowess_4
+		remove_trait = education_learning_1
+		remove_trait = education_learning_2
+		remove_trait = education_learning_3
+		remove_trait = education_learning_4
+		remove_trait = education_intrigue_1
+		remove_trait = education_intrigue_2
+		remove_trait = education_intrigue_3
+		remove_trait = education_intrigue_4
+		remove_trait = education_stewardship_1
+		remove_trait = education_stewardship_2
+		remove_trait = education_stewardship_3
+		remove_trait = education_stewardship_4
+		}
+		}
+		
+	}
+}
+
+
+
+
+#### Witch potion traits ####
+
+witch400_effect = {
+
+random_list = {
+				50 = {
+		add_trait = 
+		add_trait = 	
+		add_trait = 							
+		hidden_effect = {	
+		remove_trait = brave
+		remove_trait = craven
+		remove_trait = calm
+		remove_trait = wrathful
+		remove_trait = chaste
+		remove_trait = lustful
+		remove_trait = content
+		remove_trait = ambitious
+		remove_trait = diligent
+		remove_trait = lazy
+		remove_trait = fickle
+		remove_trait = stubborn
+		remove_trait = forgiving
+		remove_trait = vengeful
+		remove_trait = generous
+		remove_trait = greedy
+		remove_trait = gregarious
+		remove_trait = shy
+		remove_trait = honest
+		remove_trait = deceitful
+		remove_trait = humble
+		remove_trait = arrougant
+		remove_trait = just
+		remove_trait = arbitrary
+		remove_trait = patient
+		remove_trait = impatient
+		remove_trait = temperate
+		remove_trait = gluttonous
+		remove_trait = trusting
+		remove_trait = paranoid
+		remove_trait = zealous
+		remove_trait = cynical
+		remove_trait = compassionate
+		remove_trait = callous
+		remove_trait = sadistic	
+			}
+		}
+					
+				50 = {
+		add_trait = 
+		add_trait = 
+		add_trait = 	
+		hidden_effect = {			
+		remove_trait = brave
+		remove_trait = craven
+		remove_trait = calm
+		remove_trait = wrathful
+		remove_trait = chaste
+		remove_trait = lustful
+		remove_trait = content
+		remove_trait = ambitious
+		remove_trait = diligent
+		remove_trait = lazy
+		remove_trait = fickle
+		remove_trait = stubborn
+		remove_trait = forgiving
+		remove_trait = vengeful
+		remove_trait = generous
+		remove_trait = greedy
+		remove_trait = gregarious
+		remove_trait = shy
+		remove_trait = honest
+		remove_trait = deceitful
+		remove_trait = humble
+		remove_trait = arrougant
+		remove_trait = just
+		remove_trait = arbitrary
+		remove_trait = patient
+		remove_trait = impatient
+		remove_trait = temperate
+		remove_trait = gluttonous
+		remove_trait = trusting
+		remove_trait = paranoid
+		remove_trait = zealous
+		remove_trait = cynical
+		remove_trait = compassionate
+		remove_trait = callous
+		remove_trait = sadistic	
+			}		
+		}	
+	}
+}	
+	
+#### Witch potions temp ####
+
+witch0_effect = {
+
+random_list = {
+
+		50 = {
+		
+		hidden_effect = {
+		
+		}
+		}
+	
+		50 = {
+		
+		
+		hidden_effect = {
+		
+		}		
+		}			
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

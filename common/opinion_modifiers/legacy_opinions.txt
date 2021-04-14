@@ -1,0 +1,11 @@
+﻿legacy_defiled_opinion = {
+	opinion = -50
+	decaying = yes
+	years = 10
+}
+
+legacy_treated_opinion = {
+	opinion = 50
+	decaying = yes
+	years = 5
+}

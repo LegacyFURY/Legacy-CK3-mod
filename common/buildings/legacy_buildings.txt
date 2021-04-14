@@ -1,0 +1,721 @@
+﻿#### PRISON ####
+
+legacy_prison_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_burhs
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+
+	character_modifier = {
+		tax_mult = 0.05
+		monthly_county_control_change_add = 0.2
+		county_opinion_add = 5
+	}
+	
+	next_building = legacy_prison_02
+	
+	type_icon = "icon_building_prison.dds"
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_prison_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_castle_baileys
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		tax_mult = 0.1
+		monthly_county_control_change_add = 0.4
+		county_opinion_add = 10
+	}
+	
+	next_building = legacy_prison_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_prison_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_royal_armory
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		tax_mult = 0.15
+		monthly_county_control_change_add = 0.6
+		county_opinion_add = 15
+	}
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+
+	ai_value = {
+		base = 10
+	}
+}
+
+#### NOBLE PALACE ####
+
+legacy_noble_palace_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+			}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_dynasty_prestige = 0.3
+		direct_vassal_opinion = 5
+		liege_opinion = 5
+	}
+	
+	next_building = legacy_noble_palace_02
+
+	type_icon = "icon_building_noble_palace.dds"
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_noble_palace_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_dynasty_prestige = 0.6
+		direct_vassal_opinion = 10
+		liege_opinion = 10
+	}
+	
+	next_building = legacy_noble_palace_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_noble_palace_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.15
+		monthly_dynasty_prestige = 1
+		direct_vassal_opinion = 15
+		liege_opinion = 15
+	}
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+#### MONUMENT ####
+
+legacy_monument_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+			}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige = 0.3
+		monthly_prestige = 0.3
+	}
+
+	duchy_capital_county_modifier = {
+	county_opinion_add = 5
+	}
+
+	
+	next_building = legacy_monument_02
+
+	type_icon = "icon_building_monument.dds"
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_monument_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige = 0.6
+		monthly_prestige = 0.6
+	}
+
+	duchy_capital_county_modifier = {
+	county_opinion_add = 10
+	}
+	
+	next_building = legacy_monument_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_monument_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		monthly_dynasty_prestige = 1
+		monthly_prestige = 1
+	}
+
+	duchy_capital_county_modifier = {
+	county_opinion_add = 15
+	}
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+###### Knowledge guild ######
+
+legacy_knowledge_guild_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		cultural_head_fascination_mult = 0.1
+		learning_per_prestige_level = 1
+	}
+	
+	next_building = legacy_knowledge_guild_02
+
+	type_icon = "icon_building_knowledge_guild.dds"
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_knowledge_guild_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.2
+		cultural_head_fascination_mult = 0.2
+		learning_per_prestige_level = 2
+	}
+	
+	next_building = legacy_knowledge_guild_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_knowledge_guild_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.3
+		cultural_head_fascination_mult = 0.3
+		learning_per_prestige_level = 3
+	}
+	
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+#### ARCHITECT GUILD ####
+
+legacy_architect_guild_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	character_modifier = {
+		build_speed = -0.1
+		build_gold_cost = -0.1
+	}
+
+	duchy_capital_county_modifier = {
+	development_growth = 0.3
+	}
+	
+	next_building = legacy_architect_guild_02
+
+	type_icon = "icon_building_architect_guild.dds"
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_architect_guild_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		build_speed = -0.2
+		build_gold_cost = -0.2
+	}
+
+	duchy_capital_county_modifier = {
+	development_growth = 0.6
+	}
+	
+	next_building = legacy_architect_guild_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_architect_guild_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		build_speed = -0.3
+		build_gold_cost = -0.3
+	}
+
+	duchy_capital_county_modifier = {
+	development_growth = 1
+	}
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+#### HOSPITAL ####
+
+legacy_hospital_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	character_modifier = {
+		monthly_piety = 0.3
+		health = 0.3
+	}
+
+	duchy_capital_county_modifier = {
+	levy_reinforcement_rate = 0.1
+	}
+	
+	next_building = legacy_hospital_02
+
+	type_icon = "icon_building_hospital.dds"
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_hospital_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	character_modifier = {
+		monthly_piety = 0.6
+		health = 0.6
+	}
+
+	duchy_capital_county_modifier = {
+	levy_reinforcement_rate = 0.2
+	}
+	
+	next_building = legacy_hospital_03
+	
+	type = duchy_capital
+	
+	ai_value = {
+		base = 10
+	}
+}
+
+legacy_hospital_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	is_enabled = {
+		county.duchy.holder = county.holder
+	}
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	character_modifier = {
+		monthly_piety = 1
+		health = 1
+	}
+
+	duchy_capital_county_modifier = {
+	levy_reinforcement_rate = 0.3
+	}
+	
+	type = duchy_capital
+	
+	flag = fully_upgraded_duchy_capital_building
+	
+	ai_value = {
+		base = 10
+	}
+}

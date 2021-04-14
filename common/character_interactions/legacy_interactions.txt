@@ -1,0 +1,271 @@
+﻿############################### TO DO ##########################################
+# start_brainwash_interaction = {
+#	common_interaction = yes
+#	interface_priority = 90
+#	category = interaction_category_prison
+#	
+#	is_shown = {
+#		scope:recipient = { is_imprisoned_by = scope:actor }
+#		scope:recipient = { is_adult = yes }
+#		scope:actor = { is_adult = yes }
+#	}
+#	
+#	scheme = brainwash
+#	
+#	send_name = START_SCHEME	
+#	
+#	
+#	is_valid_showing_failures_only = {
+#		scope:actor = {
+#			can_start_scheme = {
+#				type = brainwash
+#				target = scope:recipient
+#			}
+#		}
+#		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+#	}
+#
+#	desc = {
+#		triggered_desc = {
+#			trigger = {
+#				scope:actor = {
+#					can_start_scheme = {
+#						type = brainwash
+#						target = scope:recipient
+#					}
+#				}
+#			}
+#			desc = scheme_interaction_tt_brainwash_approved
+#		}
+#	}
+#
+#	on_accept = {
+#		scope:actor = {
+#			stress_impact = {
+#				compassionate = major_stress_impact_gain
+#				honest = medium_stress_impact_gain
+#				just = medium_stress_impact_gain
+#			}
+#		}
+#		hidden_effect = {
+#			scope:actor = {
+#				send_interface_toast = {
+#					title = start_brainwash_interaction_notification
+#
+#					left_icon = scope:actor					
+#					right_icon = scope:recipient
+#
+#					start_scheme = {
+#						type = brainwash
+#						target = scope:recipient
+#					}
+#
+#					show_as_tooltip = {
+#						stress_impact = {
+#							compassionate = major_stress_impact_gain
+#							honest = medium_stress_impact_gain
+#							just = medium_stress_impact_gain
+#						}
+#					}
+#				}
+#			}
+#		}
+#		debug_log = "Started a murder scheme from the murder interaction! The AI shouldn't do that!"
+#		debug_log = debug_murder_scheme_message
+#	}
+#	
+#	auto_accept = yes
+#
+#	# AI for murders is handled in event murder_scheme_maintenance.1, fired from the five_year_playable_pulse
+# }
+#####################################################################
+#
+#### defile male - victime female ####
+#
+# start_defile_interaction1 = {
+#
+#	common_interaction = yes
+#	interface_priority = 90
+#	category = interaction_category_prison
+#	
+#	desc = legacy_defile_desc	
+#	
+#	is_shown = {
+#		scope:actor = { is_female = no }
+#		OR = {
+#		scope:actor = { has_sexuality =  heterosexual  }
+#		scope:actor = { has_sexuality =  bisexual  }
+#		scope:actor = { has_perk = unshackled_lust_perk }
+#		}	
+#		scope:recipient = { is_imprisoned_by = scope:actor }
+#		scope:recipient = { is_adult = yes }
+#		scope:recipient = { is_female = yes }
+#		scope:actor = { is_adult = yes }		
+#	}
+#	
+#	auto_accept = yes	
+#	
+#	on_accept = {
+#		scope:actor = {
+#			trigger_event = legacy_defile.0001
+#		    add_character_flag = {
+#			    flag = is_naked
+#			    days = 9650
+#		    }
+#		}
+#	
+#		scope:recipient = {
+#		    add_character_flag = {	flag = is_naked days = 9650	}
+#					
+#							}	
+#				}
+# }
+# 
+#### defile ruler male - victime male ####
+#
+# start_defile_interaction2 = {
+#
+#	common_interaction = yes
+#	interface_priority = 90
+#	category = interaction_category_prison
+#	
+#	desc = legacy_defile_desc	
+#	
+#	is_shown = {
+#		scope:actor = { is_female = no }
+#		OR = {
+#		scope:actor = { has_sexuality =  homosexual  }
+#		scope:actor = { has_sexuality =  bisexual  }
+#		scope:actor = { has_perk = unshackled_lust_perk }
+#		}	
+#		scope:recipient = { is_imprisoned_by = scope:actor }
+#		scope:recipient = { is_adult = yes }
+#		scope:recipient = { is_female = no }
+#		scope:actor = { is_adult = yes }		
+#	}
+#	
+#	auto_accept = yes	
+#	
+#	on_accept = {
+#		scope:actor = {
+#			trigger_event = legacy_defile.0002
+#		    add_character_flag = {
+#			    flag = is_naked
+#			    days = 9650
+#		    }
+#		}
+#	
+#		scope:recipient = {
+#		    add_character_flag = {	flag = is_naked days = 9650	}
+#							}
+#				}			
+# }
+# 
+#### defile female - victime male ####
+#
+# start_defile_interaction3 = {
+#
+#	common_interaction = yes
+#	interface_priority = 90
+#	category = interaction_category_prison
+#	
+#	desc = legacy_defile_desc	
+#	
+#	is_shown = {
+#		scope:actor = { is_female = yes }
+#		OR = {
+#		scope:actor = { has_sexuality =  heterosexual  }
+#		scope:actor = { has_sexuality =  bisexual  }
+#		scope:actor = { has_perk = unshackled_lust_perk }
+#		}	
+#		scope:recipient = { is_imprisoned_by = scope:actor }
+#		scope:recipient = { is_adult = yes }
+#		scope:recipient = { is_female = no }
+#		scope:actor = { is_adult = yes }		
+#	}
+#	
+#	auto_accept = yes	
+#	
+#	on_accept = {
+#		scope:actor = {
+#			trigger_event = legacy_defile.0003
+#		    add_character_flag = {
+#			    flag = is_naked
+#			    days = 9650
+#		    }
+#		}
+#	
+#		scope:recipient = {
+#		    add_character_flag = {	flag = is_naked days = 9650	}
+#							}
+#				}			
+# }
+# 
+#### defile female - victime female ####
+#
+#  start_defile_interaction4 = {
+#
+#	common_interaction = yes
+#	interface_priority = 90
+#	category = interaction_category_prison
+#	
+#	desc = legacy_defile_desc	
+#	
+#	is_shown = {
+#		scope:actor = { is_female = yes }
+#		OR = {
+#		scope:actor = { has_sexuality =  homosexual  }
+#		scope:actor = { has_sexuality =  bisexual  }
+#		scope:actor = { has_perk = unshackled_lust_perk }
+#		}	
+#		scope:recipient = { is_imprisoned_by = scope:actor }
+#		scope:recipient = { is_adult = yes }
+#		scope:recipient = { is_female = yes }
+#		scope:actor = { is_adult = yes }		
+#	}
+#	
+#	auto_accept = yes	
+#	
+#	on_accept = {
+#		scope:actor = {
+#			trigger_event = legacy_defile.0004
+#		    add_character_flag = { flag = is_naked days = 9650 }
+#		}
+#	
+#		scope:recipient = {
+#		    add_character_flag = {	flag = is_naked days = 9650	}
+#							}
+#				}			
+# }
+# 
+##### TREAT WOUNDS INTERACTION #####
+ 
+   start_treat_interaction = {
+
+	common_interaction = yes
+	interface_priority = 90
+	category = interaction_category_prison
+	
+	desc = legacy_treat_desc	
+	
+	is_shown = {
+			
+		scope:recipient = { is_imprisoned_by = scope:actor }
+		scope:recipient = { is_adult = yes }
+		scope:recipient = { has_character_modifier = recently_tortured }
+
+		treat_interaction_effect = yes
+		
+	}
+	
+	auto_accept = yes	
+	
+	on_accept = {
+		scope:actor = {
+			trigger_event = legacy_treat.1001
+		}
+	
+		scope:recipient = {
+							}
+				}			
+ }

@@ -1,0 +1,12 @@
+﻿1500100 = {
+	name = "dynn_Manul"
+	culture = "swabian"
+}
+1500101 = {
+	name = "dynn_Fevral"
+	culture = "czech"
+}
+
+
+
+#### example dynn_Cipolla

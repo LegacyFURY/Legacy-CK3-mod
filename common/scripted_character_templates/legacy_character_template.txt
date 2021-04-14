@@ -1,0 +1,227 @@
+﻿#Ranom prisoner
+legacy_prisoner00 = {
+				gender_female_chance = 50	
+				age = { 6 50 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+# Little girl
+legacy_prisoner01 = {
+				gender_female_chance = 100	
+				age = { 6 16 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+# little boy				
+legacy_prisoner02 = {
+				gender_female_chance = 0	
+				age = { 6 16 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+# young lady				
+legacy_prisoner03 = {
+				gender_female_chance = 100	
+				age = { 18 35 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+# young lad				
+legacy_prisoner04 = {
+				gender_female_chance = 0	
+				age = { 18 35 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}				
+
+# old woman
+legacy_prisoner05 = {
+				gender_female_chance = 100	
+				age = { 36 50 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+# old man				
+legacy_prisoner06 = {
+				gender_female_chance = 0	
+				age = { 36 50 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = yes
+				}
+
+#Giant one-eyed warrior
+legacy_prisoner07 = {
+				gender_female_chance = 0	
+				age = { 20 36 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = brave
+				trait = wrathful
+				trait = vengeful
+				trait = education_martial_prowess_4
+				trait = giant
+				trait = one_eyed
+		}
+
+# The perfect eunuch		
+legacy_prisoner08 = {
+				gender_female_chance = 0	
+				age = { 18 36 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				trait = calm
+				trait = chaste
+				trait = content
+				trait = beauty_good_3
+				trait = physique_good_3
+				trait = intellect_good_3
+				trait = eunuch				
+		}
+
+#The blind witch		
+legacy_prisoner09 = {
+				gender_female_chance = 100	
+				age = { 30 50 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = deceitful
+				trait = paranoid
+				trait = cynical
+				trait = education_learning_4
+				trait = physician_3
+				trait = witch
+				trait = blind
+		}
+
+		
+		
+		
+#Canibal steward		
+legacy_prisoner10 = {
+				gender_female_chance = 50
+				age = { 20 35 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = gregarious
+				trait = gluttonous
+				trait = lazy
+				trait = education_stewardship_4
+				trait = cannibal
+				trait = comfort_eater
+		}
+
+		
+		
+#Dwarf assassin		
+legacy_prisoner11 = {		
+				gender_female_chance = 50	
+				age = { 20 35 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = arbitrary
+				trait = callous
+				trait = deceitful
+				trait = education_intrigue_4
+				trait = dwarf
+				trait = murderer
+				trait = disfigured
+		}
+		
+#Lunatic diplomat
+legacy_prisoner12 = {
+				gender_female_chance = 50	
+				age = { 20 25 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = compassionate
+				trait = honest
+				trait = generous
+				trait = education_diplomacy_4
+				trait = scaly
+				trait = hunchbacked
+				trait = lunatic_1
+				}
+
+#Fecund catastrophy
+legacy_prisoner13 = {
+				gender_female_chance = 100	
+				age = { 18 25 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				trait = fecund
+				trait = beauty_bad_3
+				trait = physique_bad_3
+				trait = intellect_bad_3
+				}
+				
+#Pervert
+legacy_prisoner14 = {
+				gender_female_chance = 50	
+				age = { 18 36 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				trait = lustful
+				trait = deceitful
+				trait = sadistic
+				trait = deviant
+		}
+		
+#bdsm
+legacy_prisoner15 = {
+				gender_female_chance = 50	
+				age = { 18 36 }
+				dynasty = none
+				faith = root.faith
+				culture = root.culture
+				random_traits = no
+				trait = sadistic
+				trait = wrathful
+				trait = impatient
+				trait = scarred
+				trait = flagellant
+				trait = torturer
+		}
+		
+# event witch
+legacy_unique_witch = {
+				gender_female_chance = 100	
+				age = { 70 80 }
+				name = Witch
+				dynasty = none
+				faith = root.culture
+				culture = root.culture
+				random_traits = no
+				trait = witch
+		}

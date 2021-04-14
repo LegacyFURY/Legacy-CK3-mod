@@ -1,0 +1,113 @@
+﻿# martial = {
+# 	icon = {
+# 		reference = "gfx/interface/event_window/type_martial.dds"#
+#	}
+#	sound = {
+#		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_martial"
+#	}
+#	background = {
+#		event_background = armory
+#	}
+# }
+
+
+
+
+
+ prisoner = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_prison.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_prison"
+	}
+	background = {
+		event_background = prisoner
+	}
+ }
+ 
+  noblevisite = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		event_background = noblevisite
+	}
+ }
+ 
+  camp = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_martial.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_martial"
+	}
+	background = {
+		event_background = camp
+	}
+ }
+ 
+   throne = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_stewardship.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_stewardship"
+	}
+	background = {
+		event_background = throne
+	}
+ }
+ 
+   plotroom = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_intrigue.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_intrigue"
+	}
+	background = {
+		event_background = plotroom
+	}
+ }
+ 
+    studyroom = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_learning.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_learning"
+	}
+	background = {
+		event_background = studyroom
+	}
+ }
+
+     private_room = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_health"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_learning"
+	}
+	background = {
+		event_background = private_room
+	}
+ }
+ 
+ 
+     witch_hut = {
+ 	icon = {
+ 		reference = "gfx/interface/event_window/type_witch.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_learning"
+	}
+	background = {
+		event_background = witch_hut
+	}
+ }
+ 

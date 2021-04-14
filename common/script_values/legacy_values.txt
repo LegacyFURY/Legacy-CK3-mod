@@ -1,0 +1,57 @@
+﻿
+
+Integration_progress_bonus = {
+value = 0.1
+If = {
+limit = { scope:councillor.liege = { has_perk = culture_3_perk }
+}	
+
+
+add = scope:councillor.liege.diplomacy
+multiply = 2
+	}
+	}
+	
+
+	
+	court_chaplain_fabricate_claim_bonus = {
+value = 0.1
+If = {
+limit = { scope:councillor.liege = { has_perk = culture_2_perk }
+}	
+
+add = scope:councillor.liege.learning
+divide = 5
+	
+	}
+	}
+	
+	
+	
+	
+	court_chaplain_conversion_bonus = {
+value = 0.1
+If = {
+limit = { scope:councillor.liege = { has_perk = culture_1_perk }
+}	
+
+add = scope:councillor.liege.learning
+divide = 5
+		
+	}
+	}
+	
+	
+	
+	steward_promote_culture_bonus = {
+value = 0.1
+If = {
+limit = { scope:councillor.liege = { has_perk = culture_1_perk }
+}
+	
+add = scope:councillor.liege.stewardship
+divide = 5
+
+}	
+}
+	

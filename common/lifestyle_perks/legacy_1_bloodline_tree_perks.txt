@@ -1,0 +1,183 @@
+﻿
+### Legacy - bloodline perks
+
+
+bloodline_1_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 1 0 }
+	icon = node_legacy
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		life_expectancy = 3
+		health = 0.3
+		}
+	
+	
+	}
+
+bloodline_2_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 0 1 }
+	icon = node_legacy
+	
+	parent = bloodline_1_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		fertility = 0.15
+		spouse_opinion = 5
+		}
+	
+	
+	}
+	bloodline_3_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 0 2 }
+	icon = node_legacy
+
+	parent = bloodline_2_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		close_relative_opinion = 5
+		dynasty_opinion = 5
+		}
+	
+	
+	}
+	bloodline_4_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 0 3 }
+	icon = node_legacy
+
+	parent = bloodline_3_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+	stress_gain_mult = -0.15
+	stress_loss_mult = 0.15
+		}
+	
+	
+	}
+	bloodline_5_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 2 1 }
+	icon = node_legacy
+
+	parent = bloodline_1_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		positive_inactive_inheritance_chance = 0.05
+		negative_inactive_inheritance_chance = -0.05
+		}
+	
+	
+	}
+	bloodline_6_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 2 2 }
+	icon = node_legacy
+
+	parent = bloodline_5_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		positive_random_genetic_chance = 0.05
+		negative_random_genetic_chance = -0.05
+		}
+	
+	
+	}
+	bloodline_7_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 2 3 }
+	icon = node_legacy
+
+	parent = bloodline_6_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		genetic_trait_strengthen_chance = 0.05
+		}
+	
+	
+	}
+	bloodline_8_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 1 4 }
+	icon = node_legacy
+
+	parent = bloodline_4_perk
+	parent = bloodline_7_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+		prowess = 10
+		knight_limit = 2
+		
+		}
+	
+	
+	}
+	bloodline_9_perk = {
+	lifestyle = legacy_lifestyle
+	tree = bloodline
+	position = { 1 5 }
+	icon = trait_pureblood
+	
+	parent = bloodline_8_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	effect = {
+        add_trait = pureblood }
+	
+	
+	}
+	

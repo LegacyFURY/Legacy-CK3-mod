@@ -1,0 +1,129 @@
+﻿
+legacy.prisoners.rnd = {
+random_events = {
+ 100 = legacy_prison.1001
+ 100 = legacy_prison.1002
+ 100 = legacy_prison.1003
+ 100 = legacy_prison.1004
+ 100 = legacy_prison.1005
+ 100 = legacy_prison.1006
+ 100 = legacy_prison.1007
+ 100 = legacy_prison.1008
+ 100 = legacy_prison.1009
+ 100 = legacy_prison.1010
+ 100 = legacy_prison.1011
+ 100 = legacy_prison.1012
+ 20 = legacy_prison.1013
+ 20 = legacy_prison.1014
+ 20 = legacy_prison.1015
+ 20 = legacy_prison.1016
+ 20 = legacy_prison.1017
+ 20 = legacy_prison.1018
+ 20 = legacy_prison.1019
+ 20 = legacy_prison.1020
+ 20 = legacy_prison.1021
+ }
+}
+
+
+legacy.marshal.rnd = {
+random_events = {
+ 5 = legacy_marshal.1001
+ 25 = legacy_marshal.1002
+ 50 = legacy_marshal.1003
+ 75 = legacy_marshal.1004
+ 80 = legacy_marshal.1005
+ 95 = legacy_marshal.1006
+ 40 = legacy_marshal.1007
+ 25 = legacy_marshal.1008
+ 10 = legacy_marshal.1009
+ 5 = legacy_marshal.1010
+ }
+}
+
+legacy.chancellor.rnd = {
+random_events = {
+ 5 = legacy_chancellor.1001
+ 25 = legacy_chancellor.1002
+ 50 = legacy_chancellor.1003
+ 75 = legacy_chancellor.1004
+ 80 = legacy_chancellor.1005
+ 95 = legacy_chancellor.1006
+ 80 = legacy_chancellor.1007
+ 50 = legacy_chancellor.1008
+ 35 = legacy_chancellor.1009
+ 5 = legacy_chancellor.1010
+ }
+}
+
+legacy.steward.rnd = {
+random_events = {
+ 5 = legacy_steward.1001
+ 20 = legacy_steward.1002
+ 35 = legacy_steward.1003
+ 50 = legacy_steward.1004
+ 80 = legacy_steward.1005
+ 95 = legacy_steward.1006
+ 80 = legacy_steward.1007
+ 50 = legacy_steward.1008
+ 35 = legacy_steward.1009
+ 5 = legacy_steward.1010
+ }
+}
+
+legacy.chaplain.rnd = {
+random_events = {
+ 5 = legacy_chaplain.1001
+ 25 = legacy_chaplain.1002
+ 50 = legacy_chaplain.1003
+ 75 = legacy_chaplain.1004
+ 100 = legacy_chaplain.1005
+ 200 = legacy_chaplain.1006
+ 100 = legacy_chaplain.1007
+ 70 = legacy_chaplain.1008
+ 50 = legacy_chaplain.1009
+ 25 = legacy_chaplain.1010
+ }
+}
+
+legacy.spymaster.rnd = {
+random_events = {
+ 5 = legacy_spymaster.1001
+ 25 = legacy_spymaster.1002
+ 35 = legacy_spymaster.1003
+ 60 = legacy_spymaster.1004
+ 80 = legacy_spymaster.1005
+ 95 = legacy_spymaster.1006
+ 80 = legacy_spymaster.1007
+ 50 = legacy_spymaster.1008
+ 25 = legacy_spymaster.1009
+ 5 = legacy_spymaster.1010
+ }
+}
+
+legacy.spouse.rnd = {
+random_events = {
+ 5 = legacy_spouse.1001
+ 25 = legacy_spouse.1002
+ 50 = legacy_spouse.1003
+ 75 = legacy_spouse.1004
+ 100 = legacy_spouse.1005
+ 200 = legacy_spouse.1006
+ 100 = legacy_spouse.1007
+ 70 = legacy_spouse.1008
+ 50 = legacy_spouse.1009
+ 25 = legacy_spouse.1010
+ }
+}
+
+legacy.witch.rnd = {
+random_events = {
+100 = legacy_witch.1001
+100 = legacy_witch.1002
+100 = legacy_witch.1003
+100 = legacy_witch.1004
+100 = legacy_witch.1005
+100 = legacy_witch.1006
+100 = legacy_witch.1007
+ }
+}

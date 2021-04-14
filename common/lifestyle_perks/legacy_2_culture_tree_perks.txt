@@ -1,0 +1,202 @@
+﻿
+### Legacy - culture perks
+
+
+	culture_1_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 0 0 }
+	icon = node_legacy
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+		character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = cultural_propaganda_perk_effect
+		}
+	}
+	
+	}
+	
+	culture_2_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 0 1 }
+	icon = node_legacy
+	
+	parent = culture_1_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+		character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	
+		effect = {
+		custom_description_no_bullet = {
+			text = cultural_expansion_perk_effect
+		}
+	}
+	
+	}
+	
+	culture_3_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 0 2 }
+	icon = node_legacy
+	
+	parent = culture_2_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+		character_modifier = {
+		title_creation_cost_mult = -0.3
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	}
+	
+	culture_4_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 2 0 }
+	icon = node_legacy
+	
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+	county_opinion_add = 5
+	monthly_county_control_change_add = 0.5
+	}
+	
+	}
+	
+	culture_5_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 2 1 }
+	icon = node_legacy
+	
+	parent = culture_4_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	powerful_vassal_opinion = 5
+	character_capital_county_monthly_development_growth_add = 0.5	
+	}
+	
+	}
+	
+	culture_6_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 2 2 }
+	icon = node_legacy
+	
+	parent = culture_5_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+	mercenary_hire_cost_mult = -0.2
+	different_culture_opinion = 5	
+	}
+	
+	}
+	
+	culture_7_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 1 3 }
+	icon = node_legacy
+	
+	parent = culture_3_perk
+	parent = culture_6_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	realm_priest_opinion = 5
+	}
+		effect = {
+		custom_description_no_bullet = {
+			text = heavenly_touched_perk_effect
+		}
+	}
+	
+	
+	}
+	
+	culture_8_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 1 4 }
+	icon = node_legacy
+	
+	parent = culture_7_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	councillor_opinion = 5
+	liege_opinion = 5
+	}
+	
+	}
+	
+	culture_9_perk = {
+	lifestyle = legacy_lifestyle
+	tree = culture
+	position = { 1 5 }
+	icon = trait_innovator
+	
+	parent = culture_8_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	effect = {
+     add_trait = innovator 
+	 
+	 custom_description_no_bullet = {
+			text = innovator_perk_effect
+		}
+	 }
+	
+
+	
+	
+	

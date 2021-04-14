@@ -1,0 +1,64 @@
+﻿prisoner = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy001.dds"
+		environment = "environment_event_dungeon"
+		ambience = "event:/SFX/Events/Backgrounds/dungeon"
+	}
+ }
+ 
+ noblevisite = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy002.dds"
+		environment = "environment_event_courtyard"
+		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
+	}
+ }
+ 
+ camp = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy003.dds"
+		environment = "environment_event_battlefield"
+		ambience = "event:/SFX/Events/Backgrounds/camp_generic_day"
+	}
+ }
+ 
+  throne = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy004.dds"
+		environment = "environment_event_councilchamber"
+		ambience = "event:/SFX/Events/Backgrounds/throneroom_western"
+	}
+ }
+ 
+  plotroom = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy005.dds"
+		environment = "environment_event_tavern"
+		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
+	}
+ }
+ 
+  studyroom = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy006.dds"
+		environment = "environment_event_sittingroom"
+		ambience = "event:/SFX/Events/Backgrounds/physicians_office_western"
+	}
+ }
+
+ 
+  private_room = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy007.dds"
+		environment = "environment_event_sittingroom"
+		ambience = "event:/SFX/Events/Backgrounds/physicians_office_western"
+	}
+ }
+ 
+  witch_hut = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/scene_legacy008.dds"
+		environment = "environment_event_sittingroom"
+		ambience = "event:/SFX/Events/Backgrounds/physicians_office_western"
+	}
+ }

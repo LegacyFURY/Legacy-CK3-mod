@@ -1,0 +1,9 @@
+﻿give_defiler_secret_trigger = {
+    random_secret = {
+        limit = {
+            secret_type = secret_defile
+            NOT = { is_known_by = $VICTIME$ }
+        }
+        reveal_to = $VICTIME$
+    }
+}

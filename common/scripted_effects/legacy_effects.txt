@@ -1,0 +1,194 @@
+﻿#### Add a prisoner effects ####
+
+new_prisoner_effect = {
+$TARGET$ = { save_temporary_scope_as = new_target }
+$IMPRISONER$ = { save_temporary_scope_as = imprisoner }
+
+scope:imprisoner = {
+			imprison = {
+				target = scope:new_target
+				type = dungeon
+			}
+			}
+}
+
+prisoner00_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner00
+				save_scope_as = new_prisoner
+		}
+		}
+
+prisoner01_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner01
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner02_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner02
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner03_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner03
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner04_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner04
+				save_scope_as = new_prisoner
+		}
+		}
+		
+		
+prisoner05_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner05
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner06_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner06
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner07_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner07
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner08_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner08
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner09_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner09
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner10_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner10
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner11_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner11
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner12_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner12
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner13_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner13
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner14_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner14
+				save_scope_as = new_prisoner
+		}
+		}
+		
+prisoner15_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_prisoner15
+				save_scope_as = new_prisoner
+		}
+		}
+
+witch_effect = {
+		create_character = {
+#				employer = root
+				location = root.capital_province
+				template = legacy_unique_witch
+				save_scope_as = legacy_witch_char
+		}
+		}
+		
+#### dishonor effect ####		
+legacy_dishonor_effect = {
+dynasty = {
+	add_dynasty_modifier = {
+			modifier = legacy_dishonor_modifier
+			years = 5
+		}
+	}		
+}
+
+
+#### Treat Interaction effect ####
+
+treat_interaction_effect = {
+	scope:actor = {
+	custom_tooltip = treat_interaction_actor_effects
+	}
+}
+
+		
+#### Defile effect ####
+
+defile_effect = {
+		add_secret = { type = secret_defile }
+		}
+		

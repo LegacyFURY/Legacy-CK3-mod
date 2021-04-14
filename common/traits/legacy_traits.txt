@@ -1,0 +1,43 @@
+﻿pureblood = {
+	index = 300
+	lifestyle = yes
+
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	learning = 1
+	intrigue = 1
+
+	ai_rationality = 10
+	ai_energy = 5
+	}
+
+innovator = {
+	index = 301
+	lifestyle = yes
+	
+	cultural_head_fascination_mult = 0.5
+	
+	ai_rationality = 10
+	ai_energy = 5
+	}
+
+elder = {
+	index = 302
+	lifestyle = yes
+
+	monthly_lifestyle_xp_gain_mult = 0.75
+	
+	ai_rationality = 10
+	ai_energy = 5
+	}
+	
+defiler = {
+	index = 303
+	lifestyle = no
+
+	general_opinion = -30
+	
+	ai_rationality = 10
+	ai_energy = 5
+	}
