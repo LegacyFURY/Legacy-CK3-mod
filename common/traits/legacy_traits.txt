@@ -15,9 +15,11 @@
 innovator = {
 	index = 301
 	lifestyle = yes
-	
-	cultural_head_fascination_mult = 0.5
-	
+
+	cultural_head_fascination_mult = 0.15
+	ignore_negative_culture_opinion = yes
+
+
 	ai_rationality = 10
 	ai_energy = 5
 	}
@@ -26,18 +28,125 @@ elder = {
 	index = 302
 	lifestyle = yes
 
-	monthly_lifestyle_xp_gain_mult = 0.75
-	
+	monthly_lifestyle_xp_gain_mult = 0.50
+
 	ai_rationality = 10
 	ai_energy = 5
 	}
-	
+
 defiler = {
 	index = 303
 	lifestyle = no
 
 	general_opinion = -30
-	
+
 	ai_rationality = 10
 	ai_energy = 5
 	}
+#
+#	# LEGACY OUTCOMES
+#	education_legacy_1 = {
+#		index = 1
+#		minimum_age = 16
+#		diplomacy = 1
+#		prowess = 1
+#		martial = 1
+#		education = yes
+#		monthly_legacy_lifestyle_xp_gain_mult = 0.05
+#
+#		ruler_designer_cost = 0
+#
+#		desc = {
+#			first_valid = {
+#				triggered_desc = {
+#					trigger = {
+#						NOT = { exists = this }
+#					}
+#					desc = trait_education_legacy_1_desc
+#				}
+#				desc = trait_education_legacy_1_character_desc
+#			}
+#		}
+#
+#		group = education_legacy
+#		level = 1
+#	}
+#	education_legacy_2 = {
+#		index = 2
+#		minimum_age = 16
+#		diplomacy = 1
+#		prowess = 1
+#		martial = 2
+#		education = yes
+#		monthly_legacy_lifestyle_xp_gain_mult = 0.1
+#
+#		ruler_designer_cost = 20
+#
+#		desc = {
+#			first_valid = {
+#				triggered_desc = {
+#					trigger = {
+#						NOT = { exists = this }
+#					}
+#					desc = trait_education_legacy_2_desc
+#				}
+#				desc = trait_education_legacy_2_character_desc
+#			}
+#		}
+#
+#		group = education_legacy
+#		level = 2
+#	}
+#	education_legacy_3 = {
+#		index = 3
+#		minimum_age = 16
+#		diplomacy = 1
+#		prowess = 2
+#		martial = 2
+#		education = yes
+#		monthly_legacy_lifestyle_xp_gain_mult = 0.15
+#
+#		ruler_designer_cost = 40
+#
+#		desc = {
+#			first_valid = {
+#				triggered_desc = {
+#					trigger = {
+#						NOT = { exists = this }
+#					}
+#					desc = trait_education_legacy_3_desc
+#				}
+#				desc = trait_education_legacy_3_character_desc
+#			}
+#		}
+#
+#		group = education_legacy
+#		level = 3
+#	}
+#	education_legacy_4 = {
+#		index = 4
+#		minimum_age = 16
+#		diplomacy = 2
+#		prowess = 3
+#		martial = 2
+#		education = yes
+#		monthly_legacy_lifestyle_xp_gain_mult = 0.25
+#
+#		ruler_designer_cost = 80
+#
+#		desc = {
+#			first_valid = {
+#				triggered_desc = {
+#					trigger = {
+#						NOT = { exists = this }
+#					}
+#					desc = trait_education_legacy_4_desc
+#				}
+#				desc = trait_education_legacy_4_character_desc
+#			}
+#		}
+#
+#		group = education_legacy
+#		level = 4
+#	}
+#
