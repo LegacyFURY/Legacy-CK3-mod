@@ -329,11 +329,20 @@ building_legacy_architect_guild_03_desc:0 "В застенках этих зда
 building_type_legacy_hospital_01:0 "Госпитали"
 building_type_legacy_hospital_01_desc:0 "Места для раненных и искалеченных, где им могут оказать достойный уход и избавить от страданий."
 building_legacy_hospital_01:0 "Инвалидные дома"
-building_legacy_hospital_01_desc:0 "Пострадавшие и искалеченные заблудшие души находят здесь покой. В этих стенах о них позаботится [ROOT.Char.GetFaith.HighGodName]."
+building_legacy_hospital_01_desc:0 "Пострадавшие и искалеченные заблудшие души находят здесь покой. В этих стенах о них позаботится Бог."
 building_legacy_hospital_02:0 "Военные госпитали"
 building_legacy_hospital_02_desc:0 "Врачеватели разных мастей трудятся внутри госпиталей, обеспечивая качественный уход за раненными в санитарных условиях."
 building_legacy_hospital_03:0 "Королевские госпитали"
 building_legacy_hospital_03_desc:0 "Инновационные способы ампутации, идеальные условия чистоты и мастера своей профессии сыскали королевским госпиталям славу лучших заведений в своем роде."
+
+
+
+#councillor skill check
+custom_martial_check:0 "Навык [Concept( 'martial', 'военного дела' )|E] ниже чем у советника"
+custom_diplomacy_check:0 "Навык [Concept( 'diplomacy', 'дипломатии' )|E] ниже чем у советника"
+custom_stewardship_check:0 "Навык [Concept( 'stewardship', 'управления' )|E] ниже чем у советника"
+custom_learning_check:0 "Навык [Concept( 'learning', 'учености' )|E] ниже чем у советника"
+custom_intrigue_check:0 "Навык [Concept( 'intrigue', 'интриг' )|E] ниже чем у советника"
 
 
 #game concept

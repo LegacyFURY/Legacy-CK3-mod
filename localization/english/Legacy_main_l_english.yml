@@ -378,6 +378,16 @@ legacy.defile2.desc:0 "Event text"
 legacy.defile3.desc:0 "Event text"
 legacy.defile4.desc:0 "Event text"
 
+
+#councillor skill check
+custom_martial_check:0 "[Concept( 'martial' )|E] skill lower than councillor have"
+custom_diplomacy_check:0 "[Concept( 'diplomacy' )|E] skill lower than councillor have"
+custom_stewardship_check:0 "[Concept( stewardship' )|E] skill lower than councillor have"
+custom_learning_check:0 "[Concept( 'learning' )|E] skill lower than councillor have"
+custom_intrigue_check:0 "[Concept( 'intrigue' )|E] skill lower than councillor have"
+
+
+
 #Education Traits
  #trait_education_legacy_1:0 "Legacy 1 lvl"
  #trait_education_legacy_1_desc:0 "The Amateurish Plotter has had some education in the art of intrigue, but any knowledge in the art has eluded them."

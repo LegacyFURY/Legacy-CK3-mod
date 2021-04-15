@@ -81,10 +81,17 @@ marshal_decision = {
 
 	desc = marshal_decision_desc
 
-is_valid = {
-	martial >= 10
-	prestige_level >= 3
-}
+	is_valid = {
+	  prestige_level >= 2
+	     AND = {
+
+				        custom_description = {
+								martial <= cp:councillor_marshal.martial
+								text = custom_martial_check
+	              }
+	            }
+	            }
+
 
 	is_valid_showing_failures_only = {
 	is_available_adult = yes
@@ -137,9 +144,16 @@ chancellor_decision = {
 	desc = chancellor_decision_desc
 
 	is_valid = {
-		diplomacy >= 15
-		prestige_level >= 2
-	}
+	  prestige_level >= 2
+	     AND = {
+
+				        custom_description = {
+								diplomacy <= cp:councillor_chancellor.diplomacy
+								text = custom_diplomacy_check
+	              }
+	            }
+	            }
+
 
 	is_valid_showing_failures_only = {
 	is_available_adult = yes
@@ -189,9 +203,15 @@ steward_decision = {
 	desc = steward_decision_desc
 
 	is_valid = {
-		stewardship >= 13
-		prestige_level >= 2
-	}
+	  prestige_level >= 2
+	     AND = {
+
+				        custom_description = {
+								stewardship <= cp:councillor_steward.stewardship
+								text = custom_stewardship_check
+	              }
+	            }
+	            }
 
 
 	is_valid_showing_failures_only = {
@@ -242,10 +262,16 @@ chaplain_decision = {
 	desc = chaplain_decision_desc
 
 	is_valid = {
-		learning >= 15
-		piety_level >= 3
-		prestige_level >= 2
-	}
+	  prestige_level >= 2
+		piety_level >= 2
+	     AND = {
+
+				        custom_description = {
+								stewardship <= cp:councillor_court_chaplain.learning
+								text = custom_learning_check
+	              }
+	            }
+	            }
 
 
 	is_valid_showing_failures_only = {
@@ -296,9 +322,15 @@ spymaster_decision = {
 	desc = spymaster_decision_desc
 
 	is_valid = {
-		intrigue >= 15
-		prestige_level >= 2
-	}
+	  prestige_level >= 2
+	     AND = {
+
+				        custom_description = {
+								intrigue <= cp:councillor_spymaster.intrigue
+								text = custom_intrigue_check
+	              }
+	            }
+	            }
 
 
 	is_valid_showing_failures_only = {
