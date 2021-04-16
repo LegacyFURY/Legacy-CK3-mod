@@ -170,7 +170,7 @@ dynasty_8_perk = {
 		monthly_dynasty_prestige = 0.5
 		monthly_prestige = 2
 		}
-	
+
 
 	}
 
@@ -188,7 +188,7 @@ dynasty_9_perk = {
 	}
 
 	effect = {
-        add_trait = elder }
+        add_trait_force_tooltip = elder }
 
 
 	}

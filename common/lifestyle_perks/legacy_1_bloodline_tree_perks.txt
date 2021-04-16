@@ -176,7 +176,7 @@ bloodline_2_perk = {
 	}
 
 	effect = {
-        add_trait = pureblood }
+	add_trait_force_tooltip = pureblood
 
 
 	}

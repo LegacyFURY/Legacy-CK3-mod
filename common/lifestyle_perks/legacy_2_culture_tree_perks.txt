@@ -189,7 +189,7 @@
 	}
 
 	effect = {
-     add_trait = innovator
+     add_trait_force_tooltip = innovator
 
 	 custom_description_no_bullet = {
 			text = innovator_perk_effect
